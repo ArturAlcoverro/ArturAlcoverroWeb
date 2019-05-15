@@ -1,47 +1,49 @@
-#work .animations{
+#work .animations {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-#work .animation{
+#work .animation {
     position: relative;
     height: 100%;
 }
 
-#work .animation-cleanotes img{
+#work .animation-cleanotes img {
     position: absolute;
-    height: 85vh;
+    width: calc(10vw + 300px);
     /* opacity: 0.3; */
-    transform: translate(-50%, -50%);
+    transform: translate(100%, -50%);
 }
 
-#work .animation-cleanotes img:first-child{
-    left: 65%;
+#work .animation-cleanotes img:first-child {
+    right: calc(35% + 300px);
     top: 90%;
-    opacity: 0;
+    opacity: 1;
     transition-delay: 3s;
     transition: all 0.5s;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
 }
 
-#work .animation-cleanotes img:last-child{
-    left: 80%;
+#work .animation-cleanotes img:last-child {
+    right: calc(35%);
     top: 40%;
-    opacity: 0;
+    opacity: 1;
     transition-delay: 3s;
     transition: all 0.5s;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
 }
 
-#work .animation-cleanotes-on img:first-child{
-    left: 65%;
+#work .animation-cleanotes-on img:first-child {
+    right: calc(35% + 300px);
     top: 80%;
     opacity: 1;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
 }
 
-#work .animation-cleanotes-on img:last-child{
-    left: 80%;
+#work .animation-cleanotes-on img:last-child {
+    right: calc(35%);
     top: 50%;
     opacity: 1;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
 }
-
-
