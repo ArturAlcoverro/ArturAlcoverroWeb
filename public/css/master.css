@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url("/ArturAlcoverro/assets/fonts/Gilroy-Light.otf");
+    src: url("../assets/fonts/Gilroy-Light.otf");
     font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url("/ArturAlcoverro/assets/fonts/Gilroy-ExtraBold.otf");
+    src: url("../assets/fonts/Gilroy-ExtraBold.otf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url("/ArturAlcoverro/assets/fonts/Mont-ExtraLight.otf");
+    src: url("../assets/fonts/Mont-ExtraLight.otf");
     font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url("/ArturAlcoverro/assets/fonts/Mont-Heavy.otf");
+    src: url("../assets/fonts/Mont-Heavy.otf");
     font-weight: bold;
 }

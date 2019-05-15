@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artur Alcoverro</title>
-    <link rel="stylesheet" href="/ArturAlcoverro/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="/ArturAlcoverro/css/menu-animation.css">
-    <link rel="stylesheet" href="/ArturAlcoverro/css/master.css">
-    <link rel="stylesheet" href="/ArturAlcoverro/css/index.css">
-    <link rel="stylesheet" href="/ArturAlcoverro/css/projects.css">
-    <link rel="stylesheet" href="/ArturAlcoverro/css/project-animations.css">
+    <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/menu-animation.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/master.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/index.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/projects.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/project-animations.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Major+Mono+Display|Bree+Serif|Roboto"
         rel="stylesheet">
-    <script src="/ArturAlcoverro/js/libraries/jquery-3.3.1.min.js"></script>
-    <script src="/ArturAlcoverro/js/index.js"></script>
-    <script src="/ArturAlcoverro/js/libraries/popper.min.js"></script>
-    <script src="/ArturAlcoverro/js/libraries/bootstrap.min.js"></script>
-    <script src="/ArturAlcoverro/js/scroll.js"></script>
-    <script src="/ArturAlcoverro/js/project.js"></script>
+    <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('/js/index.js')}}"></script>
+    <script src="{{asset('/js/libraries/popper.min.js')}}"></script>
+    <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/js/scroll.js')}}"></script>
+    <script src="{{asset('/js/project.js')}}"></script>
+
 </head>
 
 <body>
@@ -60,7 +61,7 @@
     <div class="content">
         <ul id="navbar" class="navbar-hide">
             <a href="/" id="logoLink" class="logo logo-hide">
-                <img src="/ArturAlcoverro/assets/imgs/logo.svg" class="logo">
+                <img src="{{asset('assets/imgs/logo.svg')}}" class="logo">
             </a>
             <li>
                 <a href="#main">
@@ -93,8 +94,8 @@
             <h1>My work</h1>
             <div class="animations">
                 <div class="animation animation-cleanotes">
-                    <img src="assets/imgs/mockupCleanotes3.png" alt="">
-                    <img src="assets/imgs/mockupCleanotes4.png" alt="">
+                    <img src="{{asset('assets/imgs/CleanotesMockup2.png')}}" alt="">
+                    <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
                 </div>
                 <div class="animation animation-cleanotes"></div>
                 <div class="animation animation-cleanotes"></div>
@@ -102,16 +103,16 @@
             </div>
             <div id="projects">
                 <div class="project cleanotes" data-color="#FFA000" data-name="cleanotes">
-                    <img src="assets/imgs/cleanotesLogo.svg" width="50%" alt="CleaNotes">
+                    <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="50%" alt="CleaNotes">
                 </div>
                 <div class="project riddle" data-color="#40bfa1" data-name="riddle">
-                    <img src="assets/imgs/riddleLogo.svg" width="45%" alt="Riddle">
+                    <img src="{{asset('assets/imgs/riddleLogo.svg')}}" width="45%" alt="Riddle">
                 </div>
                 <div class="project barenys" data-color="#CCCCCC" data-name="barenys">
-                    <img src="assets/imgs/barenysLogo.png" width="45%" alt="Jordi Barenys">
+                    <img src="{{asset('assets/imgs/barenysLogo.svg')}}" width="45%" alt="Jordi Barenys">
                 </div>
                 <div class="project spam" data-color="#79b61e" data-name="artio">
-                    <img src="assets/imgs/artioLogo.svg" width="30%" alt="Artio">
+                    <img src="{{asset('assets/imgs/artioLogo.svg')}}" width="30%" alt="Artio">
                 </div>
             </div>
         </section>
