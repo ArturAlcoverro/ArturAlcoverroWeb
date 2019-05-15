@@ -1,0 +1,29 @@
+#work .animations{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#work .animation{
+    position: relative;
+    height: 100%;
+}
+
+#work .animation-cleanotes img{
+    position: absolute;
+    height: 80vh;
+    /* opacity: 0.3; */
+    transform: translate(-50%, -50%);
+}
+
+#work .animation-cleanotes img:first-child{
+    left: 70%;
+    top: 50%
+}
+
+#work .animation-cleanotes img:last-child{
+    left: 80%;
+    top: 50%
+}
+
+

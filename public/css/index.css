@@ -1,0 +1,259 @@
+:root {
+    --navbar-height: 66px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+body {
+    position: relative;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    transition: all 0.5s;
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+section:nth-child(odd) {
+    background: #333;
+}
+
+section:nth-child(even) {
+    background: #111;
+}
+
+#navbar {
+    font-family: 'Mont';
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    transition: box-shadow 0.5s, background-color 0.5s, margin-top 0.4s;
+    margin-top: -5px;
+    height: var(--navbar-height);
+    overflow: hidden;
+}
+
+.navbar-hide {
+    margin-top: calc(var(--navbar-height) * -1) !important;
+}
+
+.bg-navbar {
+    margin-top: 0px !important;
+    background-color: #212121;
+    box-shadow: 0 0 10px 0 rgb(21, 21, 21, 0.6)
+}
+
+#navbar li {
+    position: relative;
+}
+
+/* #navbar li:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 15px);
+    transform: translate(-100%, -50%);
+    transition: all 0.3s;
+}
+
+.page-active:before{
+    background-color: white !important;
+} */
+
+/* #navbar li:hover {
+    background: white;
+} */
+
+/* #navbar li:hover a p {
+    opacity: 1;
+    margin: 0;
+} */
+
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* 
+#navbar li:hover a {
+    color: black;
+} */
+
+#navbar li a p {
+    position: relative;
+    margin: 20px 3.6vw 22px 0vw;
+    text-align: right;
+    /* opacity: 0; */
+    transition: margin 0.3s, opacity 0.3s;
+}
+
+#navbar li a p:before,
+.menu-list p:before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    top: 100%;
+    left: 0%;
+    background: white;
+    transform: translate(0%, -50%);
+    transition: width 0.2s;
+}
+
+.page-active a p:before {
+    width: 25px !important;
+}
+
+.page-active-mobile a p:before {
+    width: 40px !important;
+    height: 6px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 4vw;
+    height: 45px;
+    margin-top: 6px;
+    z-index: 3;
+    transition: all 0.6s;
+    transition-delay: 0.2s;
+}
+
+.logo-hide {
+    margin-top: calc((var(--navbar-height) + 8px) * 2) !important;
+}
+
+
+#main {
+    background-color: black;
+    background-image: url("/arturalcoverro/assets/imgs/wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 1s, opacity 1s;
+    position: relative;
+}
+
+#main p {
+    margin: 0;
+    color: white;
+    margin-left: 15vw;
+    z-index: 1;
+}
+
+#main p:nth-child(1) {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: calc(4rem + 1.5vw);
+    line-height: 1em;
+    padding-bottom: 0vh;
+    opacity: 0;
+}
+
+#main p:nth-child(2) {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.scale-30 {
+    transform: scale(1.5);
+    /* filter: blur(5px); */
+}
+
+.menu {
+    position: fixed;
+    display: none;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: 2;
+}
+
+.menu-list {
+    width: 80%;
+    height: 100vh;
+    background: rgb(22, 22, 22);
+}
+
+.menu-list p{
+    position: relative;
+}
+
+.menu-close-space {
+    width: 20%;
+    height: 100vh;
+}
+
+.blur {
+    filter: brightness(100%);
+}
+
+@media (max-width: 500px) {
+    #navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: inline;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .blur {
+        filter: brightness(50%);
+    }
+
+    .logo {
+        left: 94;
+        transform: translate(-100%, 0%);
+    }
+}
+
+@media (max-width: 600px) {
+    #main p:nth-child(1) {
+        font-size: 12vw;
+    }
+
+    #main p:nth-child(2) {
+        font-size: 5vw;
+    }
+
+    #main p {
+        margin-left: 5vw;
+    }
+}
