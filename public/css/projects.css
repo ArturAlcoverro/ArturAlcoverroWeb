@@ -1,3 +1,9 @@
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+    color: red;
+    font: arial;
+}
+
 #work {
     padding: 40px 0;
     width: 100%;
@@ -27,6 +33,7 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .project {

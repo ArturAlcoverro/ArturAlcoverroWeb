@@ -45,7 +45,7 @@ section:nth-child(even) {
     list-style: none;
     padding: 0;
     text-transform: uppercase;
-    z-index: 2;
+    z-index: 10;
     transition: box-shadow 0.5s, background-color 0.5s, margin-top 0.4s;
     margin-top: -5px;
     height: var(--navbar-height);

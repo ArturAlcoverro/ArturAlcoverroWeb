@@ -44,8 +44,18 @@
 }
 
 #work .animation-riddle {
+    opacity: 0;
     position: absolute;
-    background-image: url('../assets/imgs/RiddleMockup.jpg')
+    background-image: url('../assets/imgs/RiddleMockup.png');
+    background-size: cover;
+    background-position: center;
     /* opacity: 0.3; */
     /* transform: translate(100%, -50%); */
+    transition: all 0.5s;
 }
+
+#work .animation-riddle-on {
+    opacity: 1;
+
+}
+
