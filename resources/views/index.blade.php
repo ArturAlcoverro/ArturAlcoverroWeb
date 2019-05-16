@@ -99,7 +99,8 @@
                         <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
                     </div>
                     <div class="animation animation-riddle">
-                        {{-- <img src="{{asset('assets/imgs/RiddleMockup.jpg')}}" alt=""> --}}
+                        {{-- <img src="{{asset('assets/imgs/RiddleMockup2.png')}}" alt=""> --}}
+                        {{-- <img src="{{asset('assets/imgs/RiddleMockup.png')}}" alt=""> --}}
                     </div>
                     <div class="animation animation-cleanotes"></div>
                     <div class="animation animation-cleanotes"></div>
@@ -107,10 +108,10 @@
             </div>
             <div id="projects">
                 <div class="project cleanotes" data-color="#FFA000" data-name="cleanotes">
-                    <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="50%" alt="CleaNotes">
+                    <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="60%" alt="CleaNotes">
                 </div>
                 <div class="project riddle" data-color="#40bfa1" data-name="riddle">
-                    <img src="{{asset('assets/imgs/riddleLogo.svg')}}" width="45%" alt="Riddle">
+                    <img src="{{asset('assets/imgs/riddleLogo.svg')}}" width="50%" alt="Riddle">
                 </div>
                 <div class="project barenys" data-color="#CCCCCC" data-name="barenys">
                     <img src="{{asset('assets/imgs/barenysLogo.svg')}}" width="45%" alt="Jordi Barenys">

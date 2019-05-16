@@ -1,12 +1,15 @@
-#work .animations, #work .animation  {
+#work .animations,
+#work .animation {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
+
+/**--CLEANOTES--**/
 #work .animation-cleanotes img {
     position: absolute;
-    height:80vh;
+    height: 80vh;
     /* opacity: 0.3; */
     transform: translate(100%, -50%);
 }
@@ -43,19 +46,44 @@
     /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
-#work .animation-riddle {
-    opacity: 0;
+
+/**--RIDDLE--**/
+#work .animation-riddle img {
     position: absolute;
-    background-image: url('../assets/imgs/RiddleMockup.png');
-    background-size: cover;
-    background-position: center;
+    width: 40vw;
     /* opacity: 0.3; */
-    /* transform: translate(100%, -50%); */
-    transition: all 0.5s;
 }
 
-#work .animation-riddle-on {
+#work .animation-riddle img:last-child {
+    right: 0;
+    top: 50%;
     opacity: 1;
-
+    transition-delay: 3s;
+    transition: all 0.5s;
+    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
+#work .animation-riddle img:first-child {
+    right: -5%;
+    top: 40%;
+    opacity: 1;
+    transition-delay: 3s;
+    transition: all 0.5s;
+    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
+}
+
+/* #work .animation-riddle-on img:first-child {
+    right: calc(35% + 300px);
+    top: 80%;
+    opacity: 1;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
+}
+
+#work .animation-riddle-on img:last-child {
+    right: calc(35%);
+    top: 50%;
+    opacity: 1;
+    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
+}
+
+*/

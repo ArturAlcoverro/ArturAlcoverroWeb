@@ -1,5 +1,6 @@
 ::selection {
-    background: #ffb7b7; /* WebKit/Blink Browsers */
+    background: #ffb7b7;
+    /* WebKit/Blink Browsers */
     color: red;
     font: arial;
 }
@@ -47,7 +48,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all 0.4s;
+
 }
+
+.project:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 .project:hover img {
     transform: scale(1.2);
