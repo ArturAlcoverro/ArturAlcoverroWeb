@@ -93,13 +93,17 @@
         <section id="work">
             <h1>My work</h1>
             <div class="animations">
-                <div class="animation animation-cleanotes">
-                    <img src="{{asset('assets/imgs/CleanotesMockup2.png')}}" alt="">
-                    <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
+                <div class="position-relative h-100">
+                    <div class="animation animation-cleanotes">
+                        <img src="{{asset('assets/imgs/CleanotesMockup2.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
+                    </div>
+                    <div class="animation animation-riddle">
+                        {{-- <img src="{{asset('assets/imgs/RiddleMockup.jpg')}}" alt=""> --}}
+                    </div>
+                    <div class="animation animation-cleanotes"></div>
+                    <div class="animation animation-cleanotes"></div>
                 </div>
-                <div class="animation animation-cleanotes"></div>
-                <div class="animation animation-cleanotes"></div>
-                <div class="animation animation-cleanotes"></div>
             </div>
             <div id="projects">
                 <div class="project cleanotes" data-color="#FFA000" data-name="cleanotes">
