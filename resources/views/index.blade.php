@@ -99,10 +99,13 @@
                         <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
                     </div>
                     <div class="animation animation-riddle">
-                        {{-- <img src="{{asset('assets/imgs/RiddleMockup2.png')}}" alt=""> --}}
+                        <img src="{{asset('assets/imgs/Riddle/IMG4.png')}}" alt="">
                         {{-- <img src="{{asset('assets/imgs/RiddleMockup.png')}}" alt=""> --}}
                     </div>
-                    <div class="animation animation-cleanotes"></div>
+                    <div class="animation animation-barenys">
+                        <img src="{{asset('assets/imgs/Barenys/mockupJordi2.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/Barenys/mockupJordi.png')}}" alt="">
+                    </div>
                     <div class="animation animation-cleanotes"></div>
                 </div>
             </div>

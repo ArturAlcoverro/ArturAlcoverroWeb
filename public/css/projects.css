@@ -158,7 +158,8 @@
     box-shadow: none;
 }
 
-.bg-navbar-barenys img,
+.bg-navbar-barenys .barenys img,
+.bg-navbar-barenys .logo,
 .bg-navbar-barenys h1,
 .bg-navbar-barenys li,
 .bg-navbar-barenys #logoLink {

@@ -10,26 +10,20 @@
 #work .animation-cleanotes img {
     position: absolute;
     height: 80vh;
-    /* opacity: 0.3; */
     transform: translate(100%, -50%);
+    opacity: 0;
+    transition-delay: 3s;
+    transition: all 0.5s;
 }
 
 #work .animation-cleanotes img:first-child {
     right: calc(38% + 300px);
     top: 90%;
-    opacity: 0;
-    transition-delay: 3s;
-    transition: all 0.5s;
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
 #work .animation-cleanotes img:last-child {
     right: calc(33%);
     top: 40%;
-    opacity: 0;
-    transition-delay: 3s;
-    transition: all 0.5s;
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
 #work .animation-cleanotes-on img:first-child {
@@ -50,40 +44,90 @@
 /**--RIDDLE--**/
 #work .animation-riddle img {
     position: absolute;
-    width: 40vw;
-    /* opacity: 0.3; */
+    width: 55vw;
+    right: -9%;
+    top:10%;
+    opacity: 0;
+    transition-delay: 3s;
+    transition: all 0.5s;
+    transform: rotate(-30deg);
 }
 
-#work .animation-riddle img:last-child {
+#work .animation-riddle-on img{
     right: 0;
-    top: 50%;
-    opacity: 1;
-    transition-delay: 3s;
-    transition: all 0.5s;
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
+    top: -20%;
+    opacity: 0.8;
+    transition: all 0.8s !important;
 }
 
-#work .animation-riddle img:first-child {
-    right: -5%;
-    top: 40%;
-    opacity: 1;
+/**--BARENYS--**/
+#work .animation-barenys img {
+    position: absolute;
+    /* transform: translate(100%, -50%); */
+    opacity: 0;
     transition-delay: 3s;
     transition: all 0.5s;
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
-/* #work .animation-riddle-on img:first-child {
+#work .animation-barenys img:last-child {
+    max-height: 40vh;
+    left: 35%;
+    bottom: -10%;
+}
+
+#work .animation-barenys img:first-child {
+    max-height: 60vh;
+    left: 6%;
+    /* transform: translate(0,-50%); */
+    bottom: 15%;
+}
+
+#work .animation-barenys-on img:last-child {
     right: calc(35% + 300px);
-    top: 80%;
+    bottom: 5%;
     opacity: 1;
-    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
+
+    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
-#work .animation-riddle-on img:last-child {
+#work .animation-barenys-on img:first-child {
     right: calc(35%);
-    top: 50%;
+    bottom: 5%;
     opacity: 1;
-    filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%)
+    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
-*/
+@media (max-width: 1100px) {
+    #work .animation-riddle img {
+        position: absolute;
+        width: 120vw;
+        /* opacity: 0.3; */
+    }
+
+
+    #work .animation-riddle img {
+        right: 0%;
+        top:-20%;
+        opacity: 0;
+        transition-delay: 3s;
+        transition: all 0.5s;
+        transform: rotate(-30deg)
+        /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
+    }
+
+    #work .animation-riddle-on img{
+        right: 0;
+        top: -20%;
+        opacity: 0.5;
+        transition: all 0.8s !important;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .project {
+        margin: 40px 20px 0 20px;
+        width: calc(100% - 60px);
+        height: calc(100vw - 60px);
+    }
+}

@@ -13,9 +13,6 @@ $(document).ready(function () {
         if ($('#work').offset().top <= (document.documentElement.scrollTop + 66)) {
             $('#navbar').addClass('bg-navbar-' + name);
         }
-
-        $('html').scrollTo(100);
-
     }, function () {
         var $parent = $(this).parent().parent();
         var name = $(this).data('name');
