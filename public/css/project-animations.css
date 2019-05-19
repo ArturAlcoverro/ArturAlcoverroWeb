@@ -9,7 +9,7 @@
 /**--CLEANOTES--**/
 #work .animation-cleanotes img {
     position: absolute;
-    height: 80vh;
+    height: 80vmin;
     transform: translate(100%, -50%);
     opacity: 0;
     transition-delay: 3s;
@@ -46,14 +46,14 @@
     position: absolute;
     width: 55vw;
     right: -9%;
-    top:10%;
+    top: 10%;
     opacity: 0;
     transition-delay: 3s;
     transition: all 0.5s;
     transform: rotate(-30deg);
 }
 
-#work .animation-riddle-on img{
+#work .animation-riddle-on img {
     right: 0;
     top: -20%;
     opacity: 0.8;
@@ -107,15 +107,15 @@
 
     #work .animation-riddle img {
         right: 0%;
-        top:-20%;
+        top: -20%;
         opacity: 0;
         transition-delay: 3s;
         transition: all 0.5s;
         transform: rotate(-30deg)
-        /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
+            /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
     }
 
-    #work .animation-riddle-on img{
+    #work .animation-riddle-on img {
         right: 0;
         top: -20%;
         opacity: 0.5;
