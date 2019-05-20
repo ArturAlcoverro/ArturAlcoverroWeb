@@ -106,7 +106,10 @@
                         <img src="{{asset('assets/imgs/Barenys/mockupJordi2.png')}}" alt="">
                         <img src="{{asset('assets/imgs/Barenys/mockupJordi.png')}}" alt="">
                     </div>
-                    <div class="animation animation-cleanotes"></div>
+                    <div class="animation animation-artio">
+                        <img src="{{asset('assets/imgs/Artio/mockupArtio2.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/Artio/mockupArtio.png')}}" alt="">
+                    </div>
                 </div>
             </div>
             <div id="projects">

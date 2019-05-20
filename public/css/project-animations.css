@@ -70,14 +70,14 @@
 }
 
 #work .animation-barenys img:last-child {
-    max-height: 40vh;
-    left: 35%;
+    max-width: 20vmin;
+    left: 80vmin;
     bottom: -10%;
 }
 
 #work .animation-barenys img:first-child {
-    max-height: 60vh;
-    left: 6%;
+    max-width: 70vmin;
+    left: 20vmin;
     /* transform: translate(0,-50%); */
     bottom: 15%;
 }
@@ -86,15 +86,51 @@
     right: calc(35% + 300px);
     bottom: 5%;
     opacity: 1;
-
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
 }
 
 #work .animation-barenys-on img:first-child {
     right: calc(35%);
     bottom: 5%;
     opacity: 1;
-    /* filter: invert(11%) sepia(82%) saturate(2419%) hue-rotate(7deg) brightness(107%) contrast(116%) */
+}
+
+/**--ARTIO--**/
+
+#work .animation-artio{
+}
+#work .animation-artio img {
+    position: absolute;
+    opacity: 0;
+    transition-delay: 3s;
+    transition: all 0.5s;
+    box-shadow: 10px 0 0 0 0 black;
+}
+
+#work .animation-artio img:last-child {
+    max-height: 80vh;
+    left: 15%;
+    bottom: -5%;
+}
+
+#work .animation-artio img:first-child {
+    max-height: 80vh;
+    left: 11%;
+    bottom: 10%;
+}
+
+#work .animation-artio-on img:last-child {
+    right: calc(35% + 300px);
+    left: 20%;
+    opacity: 1;
+    transform-style: preserve-3d;
+    transform: rotateY(32deg) perspective(1000px);
+}
+
+#work .animation-artio-on img:first-child {
+    right: calc(35%);
+    left: 6%;
+    opacity: 1;
+    transform: skewY(-5deg);
 }
 
 @media (max-width: 1100px) {
