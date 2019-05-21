@@ -87,6 +87,9 @@
         <section id="main" class="scale-30">
             <p><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
             <p>Software & Web Developer</p>
+            <a href="#about" class="arrow arrow-animation">
+                <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow">
+            </a>
         </section>
         <section id="about">
         </section>
@@ -107,8 +110,8 @@
                         <img src="{{asset('assets/imgs/Barenys/mockupJordi.png')}}" alt="">
                     </div>
                     <div class="animation animation-artio">
-                        <img src="{{asset('assets/imgs/Artio/mockupArtio2.png')}}" alt="">
                         <img src="{{asset('assets/imgs/Artio/mockupArtio.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/Artio/mockupArtio2.png')}}" alt="">
                     </div>
                 </div>
             </div>

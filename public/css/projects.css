@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all 0.4s;
+    background-color: all 0.4s;
 
 }
 
@@ -166,6 +166,10 @@
     mix-blend-mode: difference !important;
 }
 
+.bg-barenys {
+    mix-blend-mode: difference !important;
+}
+
 .bg-navbar-artio {
     background-color: #79b61e !important;
     box-shadow: none;
@@ -181,21 +185,33 @@
 
 @media (max-width: 1100px) {
     .project {
-        margin: 40px 20px 0 20px;
-        width: calc(50% - 60px);
-        height: calc(50vw - 60px);
+        width: calc(44%);
+        height: calc(44vw);
+        margin: 4vw 2vw 0 2vw;
     }
 
     #work h1 {
         margin-top: var(--navbar-height);
     }
+
+    #work {
+        min-height: 0px;
+    }
+
 }
 
+@media (max-width: 700px) {}
+
 @media (max-width: 500px) {
+    #work h1 {
+        margin-top: 5vw;
+        font-size: 11.5vw;
+    }
+
     .project {
-        margin: 40px 20px 0 20px;
-        width: calc(100% - 60px);
-        height: calc(100vw - 60px);
+        width: calc(44%);
+        height: calc(44vw);
+        margin: 4vw 2vw 0 2vw;
     }
 }
 

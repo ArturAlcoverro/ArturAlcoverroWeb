@@ -96,41 +96,41 @@
 
 /**--ARTIO--**/
 
-#work .animation-artio{
+#work .animation-artio {
+    transform: perspective(500px);
+    transform-style: preserve-3d;
 }
+
 #work .animation-artio img {
     position: absolute;
     opacity: 0;
     transition-delay: 3s;
-    transition: all 0.5s;
-    box-shadow: 10px 0 0 0 0 black;
-}
-
-#work .animation-artio img:last-child {
-    max-height: 80vh;
-    left: 15%;
-    bottom: -5%;
+    transition: opacity 0.5s, left 1s, transform 1s;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.226);
 }
 
 #work .animation-artio img:first-child {
+    max-height: 70vh;
+    left: 30%;
+    bottom: 10%;
+}
+
+#work .animation-artio img:last-child {
     max-height: 80vh;
     left: 11%;
     bottom: 10%;
 }
 
-#work .animation-artio-on img:last-child {
-    right: calc(35% + 300px);
-    left: 20%;
+#work .animation-artio-on img:first-child {
+    left: 15%;
     opacity: 1;
-    transform-style: preserve-3d;
-    transform: rotateY(32deg) perspective(1000px);
+    transform: rotateY(5deg);
 }
 
-#work .animation-artio-on img:first-child {
-    right: calc(35%);
-    left: 6%;
+#work .animation-artio-on img:last-child {
+    left: 30%;
     opacity: 1;
-    transform: skewY(-5deg);
+    transform: rotateY(5deg);
 }
 
 @media (max-width: 1100px) {
@@ -139,7 +139,6 @@
         width: 120vw;
         /* opacity: 0.3; */
     }
-
 
     #work .animation-riddle img {
         right: 0%;
@@ -156,14 +155,5 @@
         top: -20%;
         opacity: 0.5;
         transition: all 0.8s !important;
-
-    }
-}
-
-@media (max-width: 500px) {
-    .project {
-        margin: 40px 20px 0 20px;
-        width: calc(100% - 60px);
-        height: calc(100vw - 60px);
     }
 }

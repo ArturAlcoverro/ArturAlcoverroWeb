@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(this).removeClass('bg-transparent');
 
         if ($('#work').offset().top <= (document.documentElement.scrollTop + 66)) {
-            $('#navbar').addClass('bg-navbar-' + name);
+            $('#navbar').addClass('bg-' + name);
         }
     }, function () {
         var $parent = $(this).parent().parent();
@@ -20,6 +20,6 @@ $(document).ready(function () {
         $('.animation-' + name).removeClass('animation-' + name + '-on');
         $(this).parent().children().children().removeClass('opacity-0');
         $(this).parent().children().removeClass('bg-transparent');
-        $('#navbar').removeClass('bg-navbar-' + name);
+        $('#navbar').removeClass('bg-' + name);
     })
 });

@@ -40,13 +40,13 @@ function navbarScroll(scroll) {
 
     if ($('#work').offset().top > scroll + 66) {
         $('.project').each(function (index) {
-            $('#navbar').removeClass('bg-navbar-' + $(this).data('name'));
+            $('#navbar').removeClass('bg-' + $(this).data('name'));
         });
     }
     else {
         $('.project').each(function (index) {
             if ($('#work').hasClass('bg-navbar-' + $(this).data('name'))) {
-                $('#navbar').addClass('bg-navbar-' + $(this).data('name'));
+                $('#navbar').addClass('bg-' + $(this).data('name'));
             }
         });
     }

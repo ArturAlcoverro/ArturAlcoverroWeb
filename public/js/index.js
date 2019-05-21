@@ -14,6 +14,9 @@ $(document).ready(function () {
             $("#navbar").removeClass('navbar-hide');
             $('.logo').removeClass('logo-hide');
         }, 1100);
+        setTimeout(function () {
+            $('.arrow-hide').removeClass('arrow-hide');
+        }, 2200);
     }, 750);
 
     $(".menu-btn").click(function () {
