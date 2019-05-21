@@ -1,0 +1,29 @@
+section {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+}
+
+.container-fluid{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 0;
+}
+
+.title{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.main{
+    flex-grow : 1;
+}
+
+.main .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
