@@ -1,10 +1,11 @@
 section:nth-child(odd) {
-    background: linear-gradient(45deg, #FF9300, #FFC500);
+    background: linear-gradient(45deg, #FFC107, #FF9800);
 }
 
 section:nth-child(even) {
     background: white;
 }
 
-
-
+.google-play {
+    width: 200px;
+}

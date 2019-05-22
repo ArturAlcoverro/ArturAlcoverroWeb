@@ -5,41 +5,51 @@ section {
     width: 100%;
 }
 
-.container-fluid{
+#main {
+    height: 600px;
+}
+
+.container-fluid {
     display: flex;
     flex-flow: column;
     height: 100%;
 }
 
-.title{
-    width: 30rem;
+.title {
+    width: 20rem;
     display: block;
 }
 
-.subtitle{
+.eslogan {
     font-size: 26px;
-    font-weight: 600;
     color: white;
-    text-align: s
+
 }
 
-.logo{
+.subtitle {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter
+}
+
+.logo {
     width: 80%;
 }
 
-.main{
-    flex-grow : 1;
+.main {
+    flex-grow: 1;
 }
 
-.main .col-12{
+.main .col-12 {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
 }
 
-.main-img{
+.main-img {
     height: 95vh;
     min-height: 400px;
     padding: 10vh 0;
+    z-index: 1;
 }

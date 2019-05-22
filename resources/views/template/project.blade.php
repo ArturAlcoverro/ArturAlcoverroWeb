@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.css')}}">
     <link rel="stylesheet" href="{{asset('/css/project.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/hide.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Major+Mono+Display|Bree+Serif|Roboto"
         rel="stylesheet">
     <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
     <script src="{{asset('/js/libraries/popper.min.js')}}"></script>
     <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/js/hide.js')}}"></script>
+
     @yield('head')
 
 </head>
 <body>
-    <section>
-        <div class="container-fluid">
+    <section id="main">
+        <div class="container">
             <div class="row main">
                 <div class="col-md-6 col-12">
-                    <div class="logo">
+                    <div class="logo hide fade-right">
                         <img src="@yield('title')" alt="CleaNotes" class="title">
-                        <p class="subtitle">@yield('subtitle')</p>
+                        <p class="eslogan">@yield('eslogan')</p>
+                        <br>
+                        @yield('subtitle')
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img class="main-img" src="@yield('main-img')" alt="">
+                    <img class="main-img hide fade-top" src="@yield('main-img')" alt="">
                 </div>
             </div>
         </div>

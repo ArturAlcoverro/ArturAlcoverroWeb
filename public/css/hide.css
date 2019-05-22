@@ -1,0 +1,28 @@
+.hide {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.hide.fade {
+    opacity: 0;
+}
+
+.hide.fade-top {
+    opacity: 0;
+    top: 30px;
+}
+
+.hide.fade-left {
+    opacity: 0;
+    left: 30px;
+}
+
+.hide.fade-right {
+    opacity: 0;
+    left: -30px;
+}
