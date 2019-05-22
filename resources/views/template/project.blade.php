@@ -7,7 +7,6 @@
     <title>@yield('webTitle')</title>
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/index.css')}}">
     <link rel="stylesheet" href="{{asset('/css/project.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Major+Mono+Display|Bree+Serif|Roboto"
         rel="stylesheet">
@@ -22,11 +21,13 @@
         <div class="container-fluid">
             <div class="row main">
                 <div class="col-md-6 col-12">
-                    <img src="@yield('title')" alt="CleaNotes" class="title">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <div class="logo">
+                        <img src="@yield('title')" alt="CleaNotes" class="title">
+                        <p class="subtitle">@yield('subtitle')</p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img src="@yield('main-img')" alt="">
+                    <img class="main-img" src="@yield('main-img')" alt="">
                 </div>
             </div>
         </div>

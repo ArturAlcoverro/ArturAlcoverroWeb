@@ -9,13 +9,22 @@ section {
     display: flex;
     flex-flow: column;
     height: 100%;
-    padding: 0;
 }
 
 .title{
-    max-width: 500px;
+    width: 30rem;
     display: block;
-    margin: auto;
+}
+
+.subtitle{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    text-align: s
+}
+
+.logo{
+    width: 80%;
 }
 
 .main{
@@ -25,5 +34,12 @@ section {
 .main .col-12{
     display: flex;
     justify-content: center;
+    flex-flow: column;
     align-items: center;
+}
+
+.main-img{
+    height: 95vh;
+    min-height: 400px;
+    padding: 10vh 0;
 }

@@ -97,40 +97,41 @@
 /**--ARTIO--**/
 
 #work .animation-artio {
-    transform: perspective(500px);
-    transform-style: preserve-3d;
+    /* transform: perspective(500px);
+    transform-style: preserve-3d; */
 }
 
 #work .animation-artio img {
     position: absolute;
     opacity: 0;
     transition-delay: 3s;
-    transition: opacity 0.5s, left 1s, transform 1s;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.6s, left 0.6s, top 0.6s, transform 0.3s ease-out 0.3s;
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.226);
 }
 
 #work .animation-artio img:first-child {
-    max-height: 70vh;
-    left: 30%;
-    bottom: 10%;
+    width: 40vmax;
+    left: 38vw;
+    top:60vmin;
 }
 
 #work .animation-artio img:last-child {
-    max-height: 80vh;
-    left: 11%;
-    bottom: 10%;
+    width: 12vmax;
+    left: 58vw;
+    top:70vmin;
 }
 
 #work .animation-artio-on img:first-child {
-    left: 15%;
+    left: 35vw;
     opacity: 1;
-    transform: rotateY(5deg);
+    transform: translate(-50%, -50%);
 }
 
 #work .animation-artio-on img:last-child {
-    left: 30%;
+    left: 55vw;
     opacity: 1;
-    transform: rotateY(5deg);
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1100px) {

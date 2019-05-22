@@ -1,8 +1,7 @@
 ::selection {
-    background: #ffb7b7;
+    background: #b7e5ff;
     /* WebKit/Blink Browsers */
-    color: red;
-    font: arial;
+
 }
 
 #work {
@@ -35,6 +34,7 @@
     text-align: center;
     text-transform: uppercase;
     z-index: 2;
+    transition: color 0.3s;
 }
 
 .project {
@@ -173,6 +173,10 @@
 .bg-navbar-artio {
     background-color: #79b61e !important;
     box-shadow: none;
+}
+
+.bg-navbar-artio h1{
+    /* color: transparent !important; */
 }
 
 /* .barenys {
