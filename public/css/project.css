@@ -7,9 +7,12 @@ section {
 
 #main {
     height: 600px;
+    max-height: 70vh;
+    min-height: 400px;
+
 }
 
-.container-fluid {
+#main .container {
     display: flex;
     flex-flow: column;
     height: 100%;
@@ -38,6 +41,7 @@ section {
 
 .main {
     flex-grow: 1;
+    align-items: center;
 }
 
 .main .col-12 {
@@ -48,8 +52,24 @@ section {
 }
 
 .main-img {
-    height: 95vh;
+    height: 70vh;
     min-height: 400px;
-    padding: 10vh 0;
+    margin: 10vh 0 0 0;
     z-index: 1;
+}
+
+#about{
+    padding-top: 80px;
+}
+
+.about-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Mont', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+#about .container{
+    display: flex;
 }

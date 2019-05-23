@@ -1,5 +1,5 @@
 section:nth-child(odd) {
-    background: linear-gradient(45deg, #FFC107, #FF9800);
+    background: linear-gradient(-45deg, #FFC107, #FF9800);
 }
 
 section:nth-child(even) {
@@ -7,5 +7,42 @@ section:nth-child(even) {
 }
 
 .google-play {
-    width: 200px;
+    width: 170px;
+}
+.title{
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.about-img{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+
+@media (max-width: 768px) {
+    #main{
+        max-height: initial;
+        height: auto;
+    }
+    .main{
+        margin: 10vh 0 0 0;
+    }
+}
+
+@media (max-width: 475px){
+    .container, .col-12, .col-md-6{
+        padding: 0;
+    }
+    .eslogan{
+        font-size: 22px;
+
+    }
+    .about-title{
+        width: 90vw;
+    }
 }

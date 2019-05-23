@@ -24,10 +24,9 @@
         <div class="container">
             <div class="row main">
                 <div class="col-md-6 col-12">
-                    <div class="logo hide fade-right">
-                        <img src="@yield('title')" alt="CleaNotes" class="title">
+                    <div class="logo hide fade-right delay">
+                        @yield('title')
                         <p class="eslogan">@yield('eslogan')</p>
-                        <br>
                         @yield('subtitle')
                     </div>
                 </div>
@@ -39,7 +38,19 @@
 
     </section>
 
-    <section>2</section>
-    <section>3</section>
+    <section id="about">
+        <h2 class="about-title hide fade">@yield('about-title')</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    @yield('about-img')
+                </div>
+                <div class="col-md-6 col-12 hide fade-left delay">
+                    @yield('about-text')
+                </div>
+            </div>
+        </div>
+    </section>
+    <section></section>
 </body>
 </html>

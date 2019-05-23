@@ -26,3 +26,19 @@
     opacity: 0;
     left: -30px;
 }
+
+.delay{
+    transition-delay: 0.5s;
+}
+
+.delay2{
+    transition-delay: 0.75s;
+}
+
+.delay3{
+    transition-delay: 1s;
+}
+
+.delay4{
+    transition-delay: 1.25s;
+}
