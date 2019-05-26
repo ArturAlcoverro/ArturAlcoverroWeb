@@ -5,7 +5,7 @@
     left: 0;
     bottom: 0;
     opacity: 1;
-    transition: all 1s;
+    transition: top 1s, right 1s, left 1s, bottom 1s, opacity 1s;
 }
 
 .hide.fade {
@@ -17,28 +17,32 @@
     top: 30px;
 }
 
-.hide.fade-left {
-    opacity: 0;
-    left: 30px;
-}
-
-.hide.fade-right {
+v .hide.fade-right {
     opacity: 0;
     left: -30px;
 }
 
-.delay{
+.delay {
     transition-delay: 0.5s;
 }
 
-.delay2{
+.delay2 {
     transition-delay: 0.75s;
 }
 
-.delay3{
+.delay3 {
     transition-delay: 1s;
 }
 
-.delay4{
+.delay4 {
     transition-delay: 1.25s;
+}
+
+@media (max-width: 768px) {
+
+    .hide.fade-left {
+        opacity: 0;
+        top: 30px;
+        left: 0px;
+    }
 }

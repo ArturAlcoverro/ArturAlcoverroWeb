@@ -23,34 +23,34 @@
     <section id="main">
         <div class="container">
             <div class="row main">
-                <div class="col-md-6 col-12">
+                <div class="col-md-@yield('md-col') col-12">
                     <div class="logo hide fade-right delay">
                         @yield('title')
                         <p class="eslogan">@yield('eslogan')</p>
                         @yield('subtitle')
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <img class="main-img hide fade-top" src="@yield('main-img')" alt="">
-                </div>
+                @yield('main-img')
             </div>
         </div>
 
     </section>
 
     <section id="about">
-        <h2 class="about-title hide fade">@yield('about-title')</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 px-5">
                     @yield('about-img')
                 </div>
-                <div class="col-md-6 col-12 hide fade-left delay">
+                <div class="col-md-6 col-12 hide fade-left delay about-text">
+                    <h2 class="about-title hide fade">@yield('about-title')</h2>
                     @yield('about-text')
                 </div>
             </div>
         </div>
     </section>
-    <section></section>
+    <section class="back">
+        <a href="{{url('/#work')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt=""></a>
+    </section>
 </body>
 </html>

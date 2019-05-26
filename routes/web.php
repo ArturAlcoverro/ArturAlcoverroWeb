@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/cleanotes', function () {
     return view('cleanotes');
 });
+
+Route::get('/riddle', function () {
+    return view('riddle');
+});
+
+Route::get('/barenys', function () {
+    return view('barenys');
+});

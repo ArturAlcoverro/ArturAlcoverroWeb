@@ -16,10 +16,10 @@ $(document).ready(function () {
 });
 
 function hide(scroll, effect) {
-    $('.hide.' + effect).each(function () {
+    $('.' + effect).each(function () {
         $this = $(this);
         vh = $(window).height() / 100;
-        if ($this.offset().top <= scroll + (60 * vh)) {
+        if ($this.offset().top <= scroll + (80 * vh)) {
             $this.removeClass(effect);
         }
     });

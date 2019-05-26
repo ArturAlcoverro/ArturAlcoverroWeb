@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="{{asset('/css/index.css')}}">
     <link rel="stylesheet" href="{{asset('/css/projects.css')}}">
     <link rel="stylesheet" href="{{asset('/css/project-animations.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/about.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/contact.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/hide.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Major+Mono+Display|Bree+Serif|Roboto"
         rel="stylesheet">
     <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
@@ -20,6 +23,7 @@
     <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
     <script src="{{asset('/js/scroll.js')}}"></script>
     <script src="{{asset('/js/project.js')}}"></script>
+    <script src="{{asset('/js/hide.js')}}"></script>
 
 </head>
 
@@ -92,6 +96,17 @@
             </a>
         </section>
         <section id="about">
+            <h1>ABOUT ME</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="hide fade-top" src="{{asset('assets/imgs/profile.jpg')}}" alt="">
+                    </div>
+                    <div class="col-6">
+                        <p class="hide fade delay"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi a perspiciatis ut animi nulla fugit sit quis aliquid, saepe eius velit voluptates facere delectus ipsam tempore harum. Minima, delectus. </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="work">
             <h1>My work</h1>
@@ -117,37 +132,54 @@
             </div>
             <div id="projects">
                 <div class="project cleanotes" data-color="#FFA000" data-name="cleanotes">
-                    <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="60%" alt="CleaNotes">
+                    <a href="{{url('/cleanotes')}}">
+                        <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="60%" alt="CleaNotes">
+                    </a>
                 </div>
                 <div class="project riddle" data-color="#40bfa1" data-name="riddle">
-                    <img src="{{asset('assets/imgs/riddleLogo.svg')}}" width="50%" alt="Riddle">
+                    <a href="{{url('/riddle')}}">
+                        <img src="{{asset('assets/imgs/riddleLogo.svg')}}" width="50%" alt="Riddle">
+                    </a>
                 </div>
                 <div class="project barenys" data-color="#CCCCCC" data-name="barenys">
-                    <img src="{{asset('assets/imgs/barenysLogo.svg')}}" width="45%" alt="Jordi Barenys">
+                    <a href="{{url('/barenys')}}">
+                        <img src="{{asset('assets/imgs/barenysLogo.svg')}}" width="45%" alt="Jordi Barenys">
+                    </a>
                 </div>
                 <div class="project spam" data-color="#79b61e" data-name="artio">
-                    <img src="{{asset('assets/imgs/artioLogo.svg')}}" width="30%" alt="Artio">
+                    <a href="{{url('/spam')}}">
+                        <img src="{{asset('assets/imgs/artioLogo.svg')}}" width="30%" alt="Artio">
+                    </a>
                 </div>
             </div>
         </section>
-        <!-- <section id="work">
-            <div data-aos="zoom-in" class="project cleanotes">
-                <p class="title">CleaNotes</p>
-                <p class="text">The notes manager for smartphone with a deep and intuitive organization system</p>
-                <img width="50%" class="project-img" src="/ArturAlcoverro/assets/imgs/oneplusCN.png" alt="">
-                <img width="50%" class="project-img" src="/ArturAlcoverro/assets/imgs/oneplusCN2.png" alt="">
-                <p class="info"></p>
+        <section id="contact">
+            <h1>CONTACT</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <div class="form-group">
+                        <label for="name">NAME*</label>
+                          <input type="text" class="form-control" name="name" id="name" aria-describedby="name">
+                        </div>
+                        <div class="form-group">
+                        <label for="email">EMAIL*</label>
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
+                        </div>
+                        <div class="form-group">
+                        <label for="subject">SUBJECT*</label>
+                            <input type="text" class="form-control" name="subject" id="subject" aria-describedby="subject">
+                        </div>
+                        <div class="form-group">
+                          <label for="message">MESSAGE*</label>
+                          <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                        </div>
+                        <button class="send-btn">Submit</button>
+                    </div>
+                </div>
             </div>
-            <div data-aos="zoom-in" class="project riddle">
-                <img width="50%" class="title" src="/ArturAlcoverro/assets/imgs/riddleLogo.png" alt="">
-                <img width="80%" class="project-img" src="/ArturAlcoverro/assets/imgs/riddlewp.png" alt="">
-            </div>
-            <div data-aos="zoom-in" class="project barenys">
-                <img width="80%" class="project-img" src="/ArturAlcoverro/assets/imgs/barenyswp.png" alt="">
-            </div>
-            <div data-aos="zoom-in" class="project spam"></div>
-        </section> -->
-        <section id="contact"></section>
+        </section>
     </div>
 </body>
 

@@ -1,0 +1,67 @@
+#contact {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: background-color 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact h1 {
+    font-size: 3.750em;
+    font-family: 'Mont', sans-serif;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+label {
+    color: white;
+    font-family: 'gilroy', Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px white solid;
+    background-color: transparent;
+    color: white;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+input:-internal-autofill-selected {
+    background: transparent;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.send-btn {
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    padding: 5px 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+
+    background: white
+}

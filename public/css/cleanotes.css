@@ -9,40 +9,96 @@ section:nth-child(even) {
 .google-play {
     width: 170px;
 }
-.title{
+
+.title {
     font-family: 'Gilroy';
     font-weight: bold;
     color: white;
     font-size: 3rem;
 }
 
-.about-img{
+.main-img {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 10vh;
+    min-height: 500px;
+    z-index: 1;
+}
+
+.main-img img {
+    max-height: 100%;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.3));
+}
+
+.about-img {
     width: 300px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0)
 }
 
+.about-text a {
+    text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
-    #main{
+    #main {
         max-height: initial;
         height: auto;
     }
-    .main{
+
+    .main {
         margin: 10vh 0 0 0;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    #about {
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        height: auto;
+        min-height: 0;
+    }
+
+    .main .col-12 {
+        align-items: start;
     }
 }
 
-@media (max-width: 475px){
-    .container, .col-12, .col-md-6{
-        padding: 0;
+@media (max-width: 475px) {
+
+    .delay {
+        transition-delay: 0s;
     }
-    .eslogan{
-        font-size: 22px;
+
+    #main {
+        min-height: 1px;
+    }
+
+    .main-img {
+        min-height: 1px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .eslogan {
+        font-size: 1.375em;
 
     }
-    .about-title{
+
+    .about-title {
         width: 90vw;
+    }
+
+    .main-img img {
+        max-width: 90%;
     }
 }

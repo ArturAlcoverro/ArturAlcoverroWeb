@@ -2,11 +2,12 @@ $(document).ready(function () {
     // AOS.init();
     pageSelector();
     navbarScroll($(window).scrollTop());
+    console.log($("#main").css('background-position-y'));
 
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         $("#main").css({
-            'background-position-y': + (scroll * 0.5) + "px",
+            'background-position-y': 'calc(' + (scroll * 0.5) + "px + 50%)",
         });
         pageSelector();
         navbarScroll(scroll)

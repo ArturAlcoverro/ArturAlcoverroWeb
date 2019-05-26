@@ -97,6 +97,6 @@
 .menu a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.875em;
     text-transform: uppercase;
 }

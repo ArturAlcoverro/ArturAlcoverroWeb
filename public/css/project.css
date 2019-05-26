@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 section {
     position: relative;
     height: 100vh;
@@ -9,7 +14,6 @@ section {
     height: 600px;
     max-height: 70vh;
     min-height: 400px;
-
 }
 
 #main .container {
@@ -19,18 +23,17 @@ section {
 }
 
 .title {
-    width: 20rem;
     display: block;
 }
 
 .eslogan {
-    font-size: 26px;
+    font-size: 1.625em;
     color: white;
 
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 1.250em;
     color: white;
     font-weight: lighter
 }
@@ -45,31 +48,43 @@ section {
 }
 
 .main .col-12 {
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
 }
 
-.main-img {
-    height: 70vh;
-    min-height: 400px;
-    margin: 10vh 0 0 0;
-    z-index: 1;
+#about {
+    padding-top: calc(10vh + 40px);
 }
 
-#about{
-    padding-top: 80px;
-}
-
-.about-title{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Mont', sans-serif;
+.about-title {
+    font-family: 'Gilroy', sans-serif;
     font-weight: bold;
     margin-bottom: 30px
 }
 
-#about .container{
+.about-text {
     display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.250em;
+    flex-direction: column
+}
+
+#about .container {
+    display: flex;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    min-height: 100px;
+}
+
+.back img {
+    height: 50px;
 }
