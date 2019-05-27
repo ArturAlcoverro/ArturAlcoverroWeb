@@ -34,10 +34,18 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="">
+    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/3.jpg')}}" alt="">
 @endsection
 
 @section('about-text')
-    <p class="hide fade-left delay">Cleanotes is a note manager for android that I presented for the final project in HNC of multiplatform development. It was my first big project, and I'm so proud of it. It was also my first contact with Android Studio and Java.
-        <br><br>Previously this project also had an on-line service and a web page, but actually the server is off. <br><br>You can find the app on <a href="https://play.google.com/store/apps/details?id=com.cleanapps.cep.cleanotes2&gl=ES" target="_blank">Google Play</a>.</p>
+    <p class="hide fade-left delay">With Riddle, you will learn about the Attack on Pearl Harbor while you play amazing and challenging games.
+        <br>This website was the first project in a higher degree of web development and it was only possible thanks to the help of my two companions Toni Altamirano and Marc González.
+        <br>Riddle is composed of three games that you can play completely free!</p>
+        <br>
+        <ul class="hide fade-left delay">
+            <li><a href="">First game     (Toni).</a></li>
+            <li><a href="">Second game    (Me)</a></li>
+            <li><a href="">Third game     (Marc).</a></li>
+            <li><a href="">Final          (Toni and me).</a></li>
+        </ul>
 @endsection

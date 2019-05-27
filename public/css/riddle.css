@@ -40,12 +40,15 @@ section:nth-child(even) {
 }
 
 .about-img {
-    width: 300px;
+    max-width: 100%;
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0)
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.185)
 }
 
+#about {
+    height: auto;
+}
 
 
 

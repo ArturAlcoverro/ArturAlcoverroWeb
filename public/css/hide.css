@@ -17,9 +17,14 @@
     top: 30px;
 }
 
-v .hide.fade-right {
+.hide.fade-right {
     opacity: 0;
     left: -30px;
+}
+
+.hide.fade-left {
+    opacity: 0;
+    left: 30px;
 }
 
 .delay {
