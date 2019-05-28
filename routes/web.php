@@ -26,3 +26,7 @@ Route::get('/riddle', function () {
 Route::get('/barenys', function () {
     return view('barenys');
 });
+
+Route::get('/artio', function () {
+    return view('artio');
+});

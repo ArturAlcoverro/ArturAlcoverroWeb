@@ -150,7 +150,7 @@
                     </a>
                 </div>
                 <div class="project spam" data-color="#79b61e" data-name="artio">
-                    <a href="{{url('/spam')}}">
+                    <a href="{{url('/artio')}}">
                         <img src="{{asset('assets/imgs/artioLogo.svg')}}" width="30%" alt="Artio">
                     </a>
                 </div>

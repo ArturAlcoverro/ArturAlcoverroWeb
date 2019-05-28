@@ -51,6 +51,7 @@
                 </div>
             </div>
         </div>
+        @yield('demo')
     </section>
     <section class="back">
         <a class="no-contrast" href="{{url('/#work')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt=""></a>
