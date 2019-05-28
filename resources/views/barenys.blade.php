@@ -12,7 +12,7 @@
 @endsection
 
 @section('title')
-    <img class="title float-right" src="{{asset('/assets/imgs/barenysLogo.svg')}}" alt="">
+    <img class="title si-contrast float-right" src="{{asset('/assets/imgs/barenysLogo.svg')}}" alt="">
     {{-- {{asset('/assets/imgs/cleanotesLogo.svg')}} --}}
 @endsection
 

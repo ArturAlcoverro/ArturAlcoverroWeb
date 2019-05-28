@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('webTitle')</title>
+    <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.css')}}">
     <link rel="stylesheet" href="{{asset('/css/project.css')}}">
@@ -15,12 +16,14 @@
     <script src="{{asset('/js/libraries/popper.min.js')}}"></script>
     <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
     <script src="{{asset('/js/hide.js')}}"></script>
+    <script src="{{asset('/js/master.js')}}"></script>
 
     @yield('head')
 
 </head>
 <body>
     <section id="main">
+        <button id='acces' class="acces-bg"></button>
         <div class="container">
             <div class="row main">
                 <div class="col-md-@yield('md-col') col-12">
@@ -50,7 +53,7 @@
         </div>
     </section>
     <section class="back">
-        <a href="{{url('/#work')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt=""></a>
+        <a class="no-contrast" href="{{url('/#work')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt=""></a>
     </section>
 </body>
 </html>

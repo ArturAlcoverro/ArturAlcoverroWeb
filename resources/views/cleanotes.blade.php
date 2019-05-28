@@ -22,7 +22,7 @@
 
 @section('subtitle')
     <p class="subtitle">The notes manager for smartphone with a deep and intuitive organization system</p>
-    <a href="https://play.google.com/store/apps/details?id=com.cleanapps.cep.cleanotes2&gl=ES" target="_blank">
+    <a class="no-contrast" href="https://play.google.com/store/apps/details?id=com.cleanapps.cep.cleanotes2&gl=ES" target="_blank">
         <img class="google-play mt-3" src="{{asset('/assets/imgs/googleplay.png')}}" alt="Get it on Google Play">
     </a>
 @endsection

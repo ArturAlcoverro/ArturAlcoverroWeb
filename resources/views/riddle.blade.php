@@ -12,7 +12,7 @@
 @endsection
 
 @section('title')
-    <img class="title" src="{{asset('/assets/imgs/riddleLogo.svg')}}" alt="">
+    <img class="title si-contrast" src="{{asset('/assets/imgs/riddleLogo.svg')}}" alt="">
     {{-- {{asset('/assets/imgs/cleanotesLogo.svg')}} --}}
 @endsection
 

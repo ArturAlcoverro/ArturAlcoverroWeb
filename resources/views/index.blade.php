@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artur Alcoverro</title>
+    <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/menu-animation.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.css')}}">
@@ -24,6 +25,7 @@
     <script src="{{asset('/js/scroll.js')}}"></script>
     <script src="{{asset('/js/project.js')}}"></script>
     <script src="{{asset('/js/hide.js')}}"></script>
+    <script src="{{asset('/js/master.js')}}"></script>
 
 </head>
 
@@ -88,9 +90,10 @@
                 </a>
             </li>
         </ul>
+        <button id='acces'></button>
         <section id="main" class="scale-30">
-            <p><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
-            <p>Software & Web Developer</p>
+            <p class="no-contrast"><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
+            <p class="no-contrast">Software & Web Developer</p>
             <a href="#about" class="arrow arrow-animation">
                 <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow">
             </a>
@@ -157,10 +160,13 @@
             <h1>CONTACT</h1>
             <div class="container mt-4">
                 <div class="row">
-                    <div class="col-6 rrss">
-
+                    <div class="col-12 col-lg-6 rrss">
+                        <a href="https://www.instagram.com/artur_alcoverro/" target="_blank" class="rs instagram"></a>
+                        <a href="https://twitter.com/ArturAlcoverro" target="_blank" class="rs twitter"></a>
+                        <a href="https://www.linkedin.com/in/artur-alcoverro-9b5823179/" target="_blank" class="rs linkedin"></a>
+                        <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="form-group">
                         <label for="name">NAME*</label>
                           <input type="text" class="form-control" name="name" id="name" aria-describedby="name">

@@ -22,14 +22,31 @@
     font-weight: bold;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
+.contrast-navbar {
+    background-color: black !important;
+}
+
+.contrast {
     mix-blend-mode: difference !important;
     color: white !important;
-} */
+}
+
+#acces {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    position: fixed;
+    bottom: 13px;
+    left: 13px;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url('../assets/imgs/view.svg')
+}
+
+.acces-bg {
+    background-color: rgb(0, 0, 0) !important;
+}
