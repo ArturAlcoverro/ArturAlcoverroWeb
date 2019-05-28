@@ -155,9 +155,11 @@
         </section>
         <section id="contact">
             <h1>CONTACT</h1>
-            <div class="container">
+            <div class="container mt-4">
                 <div class="row">
-                    <div class="col-6"></div>
+                    <div class="col-6 rrss">
+
+                    </div>
                     <div class="col-6">
                         <div class="form-group">
                         <label for="name">NAME*</label>

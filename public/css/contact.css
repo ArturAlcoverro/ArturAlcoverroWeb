@@ -28,7 +28,7 @@ label {
 
 .form-control {
     border-radius: 0;
-    border: 2px white solid;
+    border: 1px white solid;
     background-color: transparent;
     color: white;
 }
@@ -53,15 +53,16 @@ textarea {
 .send-btn {
     text-transform: uppercase;
     background: transparent;
-    border: 2px white solid;
+    border: 1px white solid;
     color: white;
     font-family: 'Gilroy', sans-serif;
     padding: 5px 15px;
     float: right;
     cursor: pointer;
+    transition: color 0.2s, background 0.2s;
 }
 
 .send-btn:hover {
-
+    color: #111;
     background: white
 }
