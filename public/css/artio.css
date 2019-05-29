@@ -17,6 +17,7 @@ section:nth-child(even) {
 .title {
     max-width: 100%;
     width: 225px;
+    margin: auto;
 }
 
 .subtitle {
@@ -48,6 +49,33 @@ section:nth-child(even) {
 
 #about {
     height: auto;
+}
+
+.demo{
+    margin-top: 55px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+video{
+    margin: auto;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 100vw;
+}
+.video-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.video-buttons button{
+    margin:2px;
+    background: transparent;
+    border: 1px solid #1b1b1b;
+    color: #1b1b1b;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 

@@ -34,7 +34,8 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/3.jpg')}}" alt="">
+    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/4.jpg')}}" alt="">
+    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/3.jpg')}}" alt="">
 @endsection
 
 @section('about-text')

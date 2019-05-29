@@ -37,7 +37,9 @@ section:nth-child(even) {
 }
 
 .about-img {
-    width: 300px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, 0.301);
+    width: 100%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0)

@@ -6,6 +6,7 @@
 
 @section('head')
     <link rel="stylesheet" href="{{asset('/css/artio.css')}}">
+    <script src="{{asset('/js/video.js')}}"></script>
 @endsection
 
 @section('md-col')5
@@ -30,7 +31,7 @@
 @endsection
 
 @section('about-title')
-    About Riddle
+    About Artio
 @endsection
 
 @section('about-img')
@@ -38,22 +39,31 @@
 @endsection
 
 @section('about-text')
-    <p class="hide fade-left delay">With Riddle, you will learn about the Attack on Pearl Harbor while you play amazing and challenging games.
-        <br>This website was the first project in a higher degree of web development and it was only possible thanks to the help of my two companions Toni Altamirano and Marc González.
-        <br>Riddle is composed of three games that you can play completely free!</p>
-        <br>
-        <ul class="hide fade-left delay">
-            <li><a href="">First game     (Toni).</a></li>
-            <li><a href="">Second game    (Me)</a></li>
-            <li><a href="">Third game     (Marc).</a></li>
-            <li><a href="">Final          (Toni and me).</a></li>
-        </ul>
+    <p class="hide fade-left delay">Artio is a donation manager developed for the NGO SPAM (Protective society of Mataró).
+        This web application is formed by a public and a private part. The public part is accessible to everyone and allows you to see the donations received by the NGO.
+The private part is the manager, which only SPAM workers can access
+    </p>
+    <a tarjet="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">Public part.</a>
+
 @endsection
 
 @section('demo')
-<div class="container">
+<div class="container demo">
     <div class="row">
-        <h2 class="about-title text-center w-100">Demo Artio</h2>
+        <h2 class="about-title text-center w-100">Demo private part</h2>
+        <div class="col-12">
+            <video id="video-artio" controls>
+                <source src="{{asset('/assets/videos/demo.mp4')}}" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+        </div>
+        <div class="col-12 video-buttons">
+            <button data-time="5">Basic functions</button>
+            <button data-time="74">Create donation</button>
+            <button data-time="177">Edit donation</button>
+            <button data-time="236">Filter donation</button>
+            <button data-time="307">Create chart</button>
+        </div>
     </div>
 </div>
 @endsection

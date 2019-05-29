@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="{{asset('/css/barenys.css')}}">
 @endsection
 
-@section('md-col')6
+@section('md-col')5
 @endsection
 
 @section('title')
-    <img class="title si-contrast float-right" src="{{asset('/assets/imgs/barenysLogo.svg')}}" alt="">
+    <img class="title si-contrast m-auto" src="{{asset('/assets/imgs/barenysLogo.svg')}}" alt="">
     {{-- {{asset('/assets/imgs/cleanotesLogo.svg')}} --}}
 @endsection
 
@@ -25,7 +25,7 @@
 @endsection
 
 @section('main-img')
-    <div class="col-md-6 col-12 main-img fade-top hide">
+    <div class="col-md-7 col-12 main-img fade-top hide">
         <img src="{{asset('/assets/imgs/barenyswp.png')}}" alt="">
     </div>
 @endsection
@@ -35,7 +35,7 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="">
+    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/Barenys/1.jpg')}}" alt="">
 @endsection
 
 @section('about-text')

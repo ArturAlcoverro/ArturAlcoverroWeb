@@ -88,3 +88,7 @@ section {
 .back img {
     height: 50px;
 }
+
+.about-text a {
+    text-decoration: underline;
+}

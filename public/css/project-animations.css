@@ -141,6 +141,19 @@
         /* opacity: 0.3; */
     }
 
+    #work .animation-artio img {
+        opacity: 0 !important;
+    }
+
+    #work .animation-cleanotes img {
+        opacity: 0 !important;
+    }
+
+    #work .animation-barenys img {
+        opacity: 0 !important;
+
+    }
+
     #work .animation-riddle img {
         right: 0%;
         top: -20%;

@@ -33,6 +33,8 @@ section:nth-child(even) {
 }
 
 .main-img img {
+    max-height: 65vh;
+    min-height: 200px;
     max-width: 100%;
     position: relative;
     border-radius: 5px;
@@ -40,7 +42,7 @@ section:nth-child(even) {
 }
 
 .about-img {
-    max-width: 100%;
+    max-width: 90%;
     position: relative;
     border-radius: 5px;
     box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.185)

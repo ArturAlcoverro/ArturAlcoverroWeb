@@ -22,8 +22,12 @@
 }
 
 #about img {
-    max-width: 90%;
+    max-width: 70%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+#about p{
+    color: white;
 }

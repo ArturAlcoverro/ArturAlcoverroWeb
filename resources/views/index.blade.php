@@ -103,10 +103,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        <img class="hide fade-top" src="{{asset('assets/imgs/profile.jpg')}}" alt="">
+                        <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.jpg')}}" alt="">
                     </div>
                     <div class="col-6">
-                        <p class="hide fade delay"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi a perspiciatis ut animi nulla fugit sit quis aliquid, saepe eius velit voluptates facere delectus ipsam tempore harum. Minima, delectus. </p>
+                        <p class="hide fade delay profile-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi a perspiciatis ut animi nulla fugit sit quis aliquid, saepe eius velit voluptates facere delectus ipsam tempore harum. Minima, delectus. </p>
                     </div>
                 </div>
             </div>
