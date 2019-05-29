@@ -5,6 +5,17 @@
     width: 100%;
 }
 
+#work .animation * {
+    transition-delay: 0.3s
+}
+
+#work .animation-cleanotes-on img,
+#work .animation-riddle-on img,
+#work .animation-barenys-on img,
+#work .animation-artio-on img {
+    transition-delay: 0.3s !important;
+}
+
 
 /**--CLEANOTES--**/
 #work .animation-cleanotes img {
@@ -12,8 +23,7 @@
     height: 80vmin;
     transform: translate(100%, -50%);
     opacity: 0;
-    transition-delay: 3s;
-    transition: all 0.5s;
+    transition: all 0.5s 0s;
 }
 
 #work .animation-cleanotes img:first-child {
@@ -48,8 +58,7 @@
     right: -9%;
     top: 10%;
     opacity: 0;
-    transition-delay: 3s;
-    transition: all 0.5s;
+    transition: all 0.5s 0s;
     transform: rotate(-30deg);
 }
 
@@ -57,7 +66,8 @@
     right: 0;
     top: -20%;
     opacity: 0.8;
-    transition: all 0.8s !important;
+    transition-property: all;
+    transition-duration: 0.8s
 }
 
 /**--BARENYS--**/
@@ -65,8 +75,7 @@
     position: absolute;
     /* transform: translate(100%, -50%); */
     opacity: 0;
-    transition-delay: 3s;
-    transition: all 0.5s;
+    transition: all 0.5s 0s;
 }
 
 #work .animation-barenys img:last-child {
@@ -104,31 +113,31 @@
 #work .animation-artio img {
     position: absolute;
     opacity: 0;
-    transition-delay: 3s;
     transform: translate(-50%, -50%) rotateX(15deg);
     transition: opacity 0.6s, left 0.6s, top 0.6s, transform 0.6s;
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.226);
 }
 
-#work .animation-artio img:first-child {
+
+#work .animation-artio img.primera {
     width: 40vmax;
     left: 35vw;
     top: 65vmin;
 }
 
-#work .animation-artio-on img:first-child {
+#work .animation-artio-on img.primera {
     top: 60vmin;
     opacity: 1;
     transform: translate(-50%, -50%);
 }
 
-#work .animation-artio img:last-child {
+#work .animation-artio img.segunda {
     width: 12vmax;
     top: 75vmin;
     left: 55vw;
 }
 
-#work .animation-artio-on img:last-child {
+#work .animation-artio-on img.segunda {
     top: 70vmin;
     opacity: 1;
     transform: translate(-50%, -50%);

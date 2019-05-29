@@ -67,7 +67,7 @@
     <div class="content">
         <ul id="navbar" class="navbar-hide">
             <a href="/" id="logoLink" class="logo logo-hide">
-                <img src="{{asset('assets/imgs/logo.svg')}}" class="logo">
+                <img src="{{asset('assets/imgs/logo.svg')}}" class="logo" alt="logo">
             </a>
             <li>
                 <a href="#main">
@@ -95,18 +95,24 @@
             <p class="no-contrast"><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
             <p class="no-contrast">Software & Web Developer</p>
             <a href="#about" class="arrow arrow-animation">
-                <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow">
+                <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow" alt="scrollDown">
             </a>
         </section>
         <section id="about">
             <h1>ABOUT ME</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                        <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.jpg')}}" alt="">
+                    <div class="col-12 col-md-6">
+                        <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.jpg')}}" alt="profile-img">
                     </div>
-                    <div class="col-6">
-                        <p class="hide fade delay profile-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi a perspiciatis ut animi nulla fugit sit quis aliquid, saepe eius velit voluptates facere delectus ipsam tempore harum. Minima, delectus. </p>
+                    <div class="col-12 col-md-6">
+                        <p class="hide fade delay profile-text">
+                            Hi! I'm Artur Alcoverro, a software developer from Barcelona graduated in Centre d'estudis Politècnics.
+                            <br>
+                            <br>
+                            I am a passionate about technology, videogames and fantastic literature and I'm currently working in Telematel as a junior programmer.</p>
+                            <br>
+                            <a class="button" href="{{url('/about')}}">More about me</a>
                     </div>
                 </div>
             </div>
@@ -116,20 +122,22 @@
             <div class="animations">
                 <div class="position-relative h-100">
                     <div class="animation animation-cleanotes">
-                        <img src="{{asset('assets/imgs/CleanotesMockup2.png')}}" alt="">
-                        <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/CleanotesMockup2.png')}}" alt="Mockup-Cleanotes">
+                        <img src="{{asset('assets/imgs/CleanotesMockup.png')}}" alt="Mockup-Cleanotes2">
                     </div>
                     <div class="animation animation-riddle">
-                        <img src="{{asset('assets/imgs/Riddle/IMG4.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/Riddle/IMG4.png')}}" alt="Mockup-riddle">
                         {{-- <img src="{{asset('assets/imgs/RiddleMockup.png')}}" alt=""> --}}
                     </div>
                     <div class="animation animation-barenys">
-                        <img src="{{asset('assets/imgs/Barenys/mockupJordi2.png')}}" alt="">
-                        <img src="{{asset('assets/imgs/Barenys/mockupJordi.png')}}" alt="">
+                        <img src="{{asset('assets/imgs/Barenys/mockupJordi2.png')}}" alt="Mockup-barenys">
+                        <img src="{{asset('assets/imgs/Barenys/mockupJordi.png')}}" alt="Mockup-barenys2">
                     </div>
                     <div class="animation animation-artio">
-                        <img src="{{asset('assets/imgs/Artio/mockupArtio.png')}}" alt="">
-                        <img src="{{asset('assets/imgs/Artio/mockupArtio2.png')}}" alt="">
+                        <img class="primera" src="{{asset('assets/imgs/Artio/mockupArtio.png')}}" alt="Mockup-artio">
+                    </div>
+                    <div class="animation animation-artio">
+                        <img class="segunda" src="{{asset('assets/imgs/Artio/mockupArtio2.png')}}" alt="Mockup-artio2">
                     </div>
                 </div>
             </div>

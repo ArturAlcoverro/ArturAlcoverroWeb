@@ -1,0 +1,69 @@
+body {
+    background-color: #212121
+}
+
+h1 {
+    font-size: 3.750em;
+    font-family: 'Mont', sans-serif;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    /* text-align: center; */
+    text-transform: uppercase;
+    z-index: 2;
+    transition: color 0.3s;
+    margin: 20px 0 45px 0;
+}
+
+p,
+li {
+    color: white;
+    font-size: 20px;
+}
+
+.bold p {
+    font-weight: bold;
+}
+
+.profile {
+    width: 100%;
+    float: right
+}
+
+.ul {}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    margin: auto
+}
+
+ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.back {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    min-height: 100px;
+
+}
+
+.back img {
+    height: 50px;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 15vw;
+    }
+}

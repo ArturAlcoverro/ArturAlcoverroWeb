@@ -30,7 +30,7 @@
 @section('main-img')
     {{-- <div class="col-md-6 col-12 main-img fade" style="background-image: url({{asset('assets/imgs/CleanotesMockup.png')}})"></div> --}}
     <div class="col-md-6 col-12 main-img">
-            <img class="hide fade-top" src="{{asset('/assets/imgs/CleanotesMockup.png')}}" alt="">
+            <img class="hide fade-top" src="{{asset('/assets/imgs/CleanotesMockup.png')}}" alt="mockup cleanotes">
     </div>
 @endsection
 
@@ -39,7 +39,7 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="">
+    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="mockup cleanotes">
 @endsection
 
 @section('about-text')

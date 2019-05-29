@@ -23,7 +23,6 @@
 
 label {
     color: white;
-    font-family: 'gilroy', Arial, Helvetica, sans-serif;
 }
 
 .form-control {
@@ -51,20 +50,7 @@ textarea {
 }
 
 .send-btn {
-    text-transform: uppercase;
-    background: transparent;
-    border: 1px white solid;
-    color: white;
-    font-family: 'Gilroy', sans-serif;
-    padding: 5px 15px;
     float: right;
-    cursor: pointer;
-    transition: color 0.2s, background 0.2s;
-}
-
-.send-btn:hover {
-    color: #111;
-    background: white
 }
 
 .rrss {
@@ -76,13 +62,9 @@ textarea {
 }
 
 .rrss .rs {
-    width: 17vmin;
-    height: 17vmin;
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 200px;
-    max-height: 200px;
-    margin: 2vmin;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 5%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,13 +95,20 @@ textarea {
 
 @media (max-width: 992px) {
     .rrss .rs {
-        width: 10vw;
-        height: 10vw;
-        min-width: 75px;
-        min-height: 75px;
+        width: 20%;
+        padding-bottom: 20%;
+        margin: 2.5%
     }
 
     .rrss {
-        margin-bottom: 30px
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width: 380px) {
+    .rrss .rs {
+        width: 30%;
+        padding-bottom: 30%;
+        margin: 5%
     }
 }

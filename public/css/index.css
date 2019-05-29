@@ -65,6 +65,30 @@ section:nth-child(even) {
     position: relative;
 }
 
+button,
+.button {
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px white solid;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: color 0.2s, background 0.2s;
+    font-size: 20px;
+}
+
+button:hover,
+.button:hover {
+    color: #111;
+    background: white;
+    text-decoration: none;
+}
+
+.profile-text {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 /* #navbar li:before {
     content: '';
     width: 13px;

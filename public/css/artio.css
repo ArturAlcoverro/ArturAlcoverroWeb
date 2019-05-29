@@ -51,31 +51,40 @@ section:nth-child(even) {
     height: auto;
 }
 
-.demo{
+.demo {
     margin-top: 55px;
     margin-bottom: 40px;
     justify-content: center;
 }
 
-video{
+video {
     margin: auto;
     max-height: 100vh;
     width: 100%;
     max-width: 100vw;
 }
-.video-buttons{
+
+.video-buttons {
+    margin: 30px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap
 }
 
-.video-buttons button{
-    margin:2px;
-    background: transparent;
-    border: 1px solid #1b1b1b;
+.video-buttons button {
+    margin: 2px;
+    background: rgb(231, 231, 231);
+    border: 1px solid #d3d3d3;
     color: #1b1b1b;
     cursor: pointer;
     border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 12px
+}
+
+.eslogan {
+    margin-top: 20px;
 }
 
 

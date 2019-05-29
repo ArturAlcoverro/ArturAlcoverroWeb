@@ -4,7 +4,7 @@ section:nth-child(1) {
 }
 
 section:nth-last-child(1) {
-    background: linear-gradient(45deg, #0EEADC, #2DE5A7);
+    background: #ec8676;
 }
 
 section:nth-child(even) {
@@ -18,6 +18,14 @@ section:nth-child(even) {
 
 .subtitle {
     font-weight: 400;
+}
+
+#about {
+    padding-top: calc(10vh);
+}
+
+section {
+    height: auto;
 }
 
 .main-img {

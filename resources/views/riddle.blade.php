@@ -12,7 +12,7 @@
 @endsection
 
 @section('title')
-    <img class="title si-contrast" src="{{asset('/assets/imgs/riddleLogo.svg')}}" alt="">
+    <img class="title si-contrast" src="{{asset('/assets/imgs/riddleLogo.svg')}}" alt="riddleLogo">
     {{-- {{asset('/assets/imgs/cleanotesLogo.svg')}} --}}
 @endsection
 
@@ -25,7 +25,7 @@
 
 @section('main-img')
     <div class="col-md-7 col-12 main-img fade-top hide">
-        <img src="{{asset('/assets/imgs/Riddle/1.jpg')}}" alt="">
+        <img src="{{asset('/assets/imgs/Riddle/1.jpg')}}" alt="screenshot riddle">
     </div>
 @endsection
 
@@ -34,8 +34,8 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/4.jpg')}}" alt="">
-    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/3.jpg')}}" alt="">
+    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/4.jpg')}}" alt="screenshot riddle">
+    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Riddle/3.jpg')}}" alt="screenshot riddle">
 @endsection
 
 @section('about-text')

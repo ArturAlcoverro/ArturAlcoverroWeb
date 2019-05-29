@@ -30,3 +30,7 @@ Route::get('/barenys', function () {
 Route::get('/artio', function () {
     return view('artio');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});

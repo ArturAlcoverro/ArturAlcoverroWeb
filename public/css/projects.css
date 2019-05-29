@@ -10,7 +10,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    transition: background-color 0.5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
     overflow: hidden;
     position: relative;
 }
@@ -71,6 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.3s;
 }
 
 .cleanotes .project-logo {
@@ -153,16 +156,21 @@
 .bg-navbar-cleanotes {
     background-color: #FFA000 !important;
     box-shadow: none;
+    /* transition-delay: 0.3s; */
 }
 
 .bg-navbar-riddle {
     background-color: #40bfa1 !important;
     box-shadow: none;
+    /* transition-delay: 0.3s; */
+
 }
 
 .bg-navbar-barenys {
     background-color: #d1d1d1 !important;
     box-shadow: none;
+    /* transition-delay: 0.3s; */
+
 }
 
 .bg-navbar-barenys .barenys img,
@@ -180,6 +188,7 @@
 .bg-navbar-artio {
     background-color: #79b61e !important;
     box-shadow: none;
+    transition-delay: 0 !important;
 }
 
 /* .bg-navbar-artio h1 {
