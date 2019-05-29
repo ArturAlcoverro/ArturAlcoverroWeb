@@ -44,9 +44,9 @@
         <br>Riddle is composed of three games that you can play completely free!</p>
         <br>
         <ul class="hide fade-left delay">
-            <li><a href="">First game     (Toni).</a></li>
-            <li><a href="">Second game    (Me)</a></li>
-            <li><a href="">Third game     (Marc).</a></li>
-            <li><a href="">Final          (Toni and me).</a></li>
+            <li><a target="_blank" href="http://daw2a01.abp-politecnics.com/riddle_abp/php/body/enigma1.php">First game (Toni).</a></li>
+            <li><a target="_blank" href="http://daw2a01.abp-politecnics.com/riddle_abp/php/body/enigma3.php">Second game (Me)</a></li>
+            <li><a target="_blank" href="http://daw2a01.abp-politecnics.com/riddle_abp/php/body/enigma4.php">Third game (Marc).</a></li>
+            <li><a target="_blank" href="http://daw2a01.abp-politecnics.com/riddle_abp/php/body/enigma5.php">Final (Toni and me).</a></li>
         </ul>
 @endsection
