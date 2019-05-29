@@ -17,7 +17,7 @@
 @endsection
 
 @section('eslogan')
-   <br>Discover the attack on Pearl Harbor with incredible games.
+   <br>Discover the attack on Pearl Harbor enjoying incredible games.
 @endsection
 
 @section('subtitle')
