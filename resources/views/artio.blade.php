@@ -57,7 +57,7 @@ The private part is the manager, which only SPAM workers can access
                 Your browser does not support HTML5 video.
               </video>
         </div>
-        <div class="col-12 video-buttons hide fade-top">
+        <div class="col-12 video-buttons">
             <button data-time="6" data-end="74">Basic functions</button>
             <button data-time="74" data-end="177">Create donation</button>
             <button data-time="177" data-end="236">Edit donation</button>
