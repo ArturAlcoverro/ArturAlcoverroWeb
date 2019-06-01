@@ -18,7 +18,6 @@ $(document).ready(function () {
 
             //Comprueba si el video esta en la funcionalidad seleccionada
             if (current <= end_video && current >= start_video) {
-                console.log(current);
                 if (current == end_video) { //Si el video llega al final de la funcionalidad seleccionada se para
                     video.pause();
                     pause = false;

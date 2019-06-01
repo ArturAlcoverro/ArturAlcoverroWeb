@@ -64,9 +64,13 @@
         <div class="row hide fade-top mt-5">
                 <h1>SKILLS</h1>
                 <div class="col-12 ul">
+                    <h2>Hard Skills</h2>
                     <ul>
                         <li>
                             <b>Programming language:</b> C, C#, Java, Bash, JavaScrip, PHP, Progress ABL.
+                        </li>
+                        <li>
+                            <b>Frameworks:</b> Laravel, Android Studio.
                         </li>
                         <li>
                             <b>Web libraries:</b> Bootstrap, Jquery, Datatables.
@@ -76,6 +80,25 @@
                         </li>
                         <li>
                             <b>Markup Language:</b> JSON, XML, HTML, CSS, XSLT.
+                        </li>
+                    </ul>
+
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>
+                            <b>Teamwork.</b>
+                        </li>
+                        <li>
+                            <b>Flexibility.</b>
+                        </li>
+                        <li>
+                            <b>Responsibility.</b>
+                        </li>
+                        <li>
+                            <b>Lidership</b>
+                        </li>
+                        <li>
+                            <b>Hardworking</b>
                         </li>
                     </ul>
                 </div>
