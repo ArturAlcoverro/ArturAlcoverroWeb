@@ -58,11 +58,11 @@ The private part is the manager, which only SPAM workers can access
               </video>
         </div>
         <div class="col-12 video-buttons hide fade-top">
-            <button data-time="6">Basic functions</button>
-            <button data-time="74">Create donation</button>
-            <button data-time="177">Edit donation</button>
-            <button data-time="236">Filter donation</button>
-            <button data-time="307">Create chart</button>
+            <button data-time="6" data-end="74">Basic functions</button>
+            <button data-time="74" data-end="177">Create donation</button>
+            <button data-time="177" data-end="236">Edit donation</button>
+            <button data-time="236" data-end="307">Filter donation</button>
+            <button data-time="307" data-end="433">Create chart</button>
             <p class="mt-3"><b>*Click the buttons to whatch the funcionality you want.</b></p>
         </div>
     </div>
