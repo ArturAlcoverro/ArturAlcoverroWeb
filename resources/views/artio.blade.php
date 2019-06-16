@@ -35,22 +35,29 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/Artio/2.png')}}" alt="screenshot artio">
+    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/2.png')}}" alt="screenshot riddle">
+    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/3.png')}}" alt="screenshot riddle">
+
 @endsection
 
 @section('about-text')
     <p class="hide fade-left delay">Artio is a donation manager developed for the NGO SPAM (Protective society of Mataró).
         This web application is formed by a public and a private part. The public part is accessible to everyone and allows you to see the donations received by the NGO.
-The private part is the manager, which only SPAM workers can access
+        The private part is the manager, which only SPAM workers can access
+        <br>
+        <br>
+        This is my biggest project and it was only possible thanks to the help of my teammates David Corredera, Xavi Liceran and Samuel Martín.
     </p>
-    <a class="hide fade-left delay2" tarjet="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">Public part.</a>
+    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">Public part.</a>
+    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/login">Private part (Demo).</a>
+    <p class="hide fade-left delay2 tip"> *Email: demo@artio.com // Password: demo123 </p>
 
 @endsection
 
 @section('demo')
 <div class="container demo">
     <div class="row hide fade-top">
-        <h2 class="about-title text-center w-100">Demo private part</h2>
+        <h2 class="about-title text-center w-100">Guide private part</h2>
         <div class="col-12">
             <video id="video-artio" controls>
                 <source src="{{asset('/assets/videos/demo.mp4')}}" type="video/mp4">

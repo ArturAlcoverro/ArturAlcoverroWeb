@@ -35,6 +35,7 @@ section:nth-child(even) {
 }
 
 .about-img {
+    margin-bottom: 100px;
     width: 300px;
     position: relative;
     left: 50%;
@@ -47,28 +48,6 @@ section:nth-child(even) {
 
 
 @media (max-width: 768px) {
-    #main {
-        max-height: initial;
-        height: auto;
-    }
-
-    .main {
-        margin: 10vh 0 0 0;
-    }
-
-    .about-img {
-        display: none;
-    }
-
-    #about {
-        padding-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    section {
-        height: auto;
-        min-height: 0;
-    }
 
     .main-img {
         top: 5VH;

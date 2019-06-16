@@ -1,25 +1,31 @@
 $(document).ready(function () {
 
     var scroll = $(window).scrollTop();
-    hide(scroll, "fade");
-    hide(scroll, "fade-top");
-    hide(scroll, "fade-right");
-    hide(scroll, "fade-left");
+    var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+
+    hide(scroll, scrollBottom, "fade");
+    hide(scroll, scrollBottom, "fade-top");
+    hide(scroll, scrollBottom, "fade-right");
+    hide(scroll, scrollBottom, "fade-left");
 
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
-        hide(scroll, "fade");
-        hide(scroll, "fade-top");
-        hide(scroll, "fade-right");
-        hide(scroll, "fade-left");
+        var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+
+        hide(scroll, scrollBottom, "fade");
+        hide(scroll, scrollBottom, "fade-top");
+        hide(scroll, scrollBottom, "fade-right");
+        hide(scroll, scrollBottom, "fade-left");
     });
 });
 
-function hide(scroll, effect) {
+function hide(scroll, scrollBottom, effect) {
     $('.' + effect).each(function () {
-        $this = $(this);
-        vh = $(window).height() / 100;
-        if ($this.offset().top <= scroll + (80 * vh)) {
+        var $this = $(this);
+        var height = $this.height();
+        var vh = $(window).height() / 100;
+
+        if ($this.offset().top <= scroll + (70 * vh) || scrollBottom <= height) {
             $this.removeClass(effect);
         }
     });

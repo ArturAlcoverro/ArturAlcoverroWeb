@@ -87,30 +87,9 @@ video {
     margin-top: 20px;
 }
 
-
-
-@media (max-width: 768px) {
-    #main {
-        max-height: initial;
-        height: auto;
-    }
-
-    .main {
-        margin: 10vh 0 0 0;
-    }
-
-    .about-img {
-        display: none;
-    }
-
-    #about {
-        padding-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    section {
-        height: auto;
-        min-height: 0;
+@media (max-width: 992px) {
+    .about-img-container {
+        margin-bottom: 0px !important;
     }
 }
 

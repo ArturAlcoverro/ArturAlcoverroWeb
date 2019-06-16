@@ -67,7 +67,7 @@
                     <h2>Hard Skills</h2>
                     <ul>
                         <li>
-                            <b>Programming language:</b> C, C#, Java, Bash, JavaScrip, PHP, Progress ABL.
+                            <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL.
                         </li>
                         <li>
                             <b>Frameworks:</b> Laravel, Android Studio.

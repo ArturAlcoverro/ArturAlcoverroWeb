@@ -175,23 +175,25 @@
                         <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="form-group">
-                        <label for="name">NAME*</label>
-                          <input type="text" class="form-control" name="name" id="name" aria-describedby="name">
-                        </div>
-                        <div class="form-group">
-                        <label for="email">EMAIL*</label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
-                        </div>
-                        <div class="form-group">
-                        <label for="subject">SUBJECT*</label>
-                            <input type="text" class="form-control" name="subject" id="subject" aria-describedby="subject">
-                        </div>
-                        <div class="form-group">
-                          <label for="message">MESSAGE*</label>
-                          <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-                        </div>
-                        <button class="send-btn">Submit</button>
+                        <form action="{{url('/')}}" method="post">
+                            <div class="form-group">
+                            <label for="name">Name</label>
+                            <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
+                            </div>
+                            <div class="form-group">
+                            <label for="email">Email</label>
+                                <input required type="email" class="form-control" name="email" id="email" aria-describedby="email">
+                            </div>
+                            <div class="form-group">
+                            <label for="subject">Subject</label>
+                                <input required type="text" class="form-control" name="subject" id="subject" aria-describedby="subject">
+                            </div>
+                            <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="send-btn">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>

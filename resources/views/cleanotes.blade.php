@@ -39,7 +39,7 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img m-auto hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="mockup cleanotes">
+    <img class="about-img hide fade-top" src="{{asset('/assets/imgs/mockupCleanotes2.png')}}" alt="mockup cleanotes">
 @endsection
 
 @section('about-text')

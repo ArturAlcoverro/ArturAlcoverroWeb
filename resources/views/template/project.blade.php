@@ -42,12 +42,12 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 px-5">
-                    @yield('about-img')
-                </div>
-                <div class="col-md-6 col-12 hide fade-left delay about-text">
+                <div class="col-lg-6 col-12 hide fade-left delay about-text">
                     <h2 class="about-title hide fade">@yield('about-title')</h2>
                     @yield('about-text')
+                </div>
+                <div class="col-lg-6 col-12 px-5 about-img-container">
+                    @yield('about-img')
                 </div>
             </div>
         </div>

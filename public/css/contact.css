@@ -22,12 +22,14 @@
 }
 
 label {
-    color: white;
+    color: #ffffff91;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .form-control {
     border-radius: 0;
-    border: 1px white solid;
+    border: 3px #ffffff91 solid;
     background-color: transparent;
     color: white;
 }

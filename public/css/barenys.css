@@ -53,32 +53,10 @@ section {
     transform: translate(-50%, 0)
 }
 
-
-
-
-@media (max-width: 768px) {
-    #main {
-        max-height: initial;
-        height: auto;
-    }
-
-    .main {
-        margin: 10vh 0 0 0;
-    }
-
-    .about-img {
-        display: none;
-    }
-
-    #about {
-        padding-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    section {
-        height: auto;
-        min-height: 0;
-    }
+.eslogan {
+    width: 225px;
+    text-align: right;
+    margin: 40px auto 0 auto;
 }
 
 @media (max-width: 475px) {

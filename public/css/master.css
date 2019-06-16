@@ -50,3 +50,9 @@
 .acces-bg {
     background-color: rgb(0, 0, 0) !important;
 }
+
+@media (max-width:850px) {
+    #acces {
+        display: none;
+    }
+}

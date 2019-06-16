@@ -69,12 +69,13 @@ button,
 .button {
     text-transform: uppercase;
     background: transparent;
-    border: 1px white solid;
+    border: 3px #ffffff91 solid;
     color: white;
     padding: 5px 15px;
     cursor: pointer;
     transition: color 0.2s, background 0.2s;
     font-size: 20px;
+    font-weight: 600;
 }
 
 button:hover,
@@ -176,7 +177,7 @@ button:hover,
 
 #main {
     background-color: black;
-    background-image: url("../assets/imgs/wallpaper5.png");
+    background-image: url("https://i.imgur.com/bmo1BzT.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
