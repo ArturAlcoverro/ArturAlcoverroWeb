@@ -135,6 +135,10 @@ section {
         margin-bottom: 55px;
     }
 
+    .about-img-container img:nth-child(2) {
+        display: none;
+    }
+
     .eslogan {
         text-align: center;
         font-size: 1.25em
