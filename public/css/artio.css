@@ -2,7 +2,7 @@ section:nth-child(1) {
     background: linear-gradient(to bottom, #96d811, #76b61e);
 }
 
-section:nth-last-child(1) {
+section.back {
     background: linear-gradient(45deg, #76b61e, #96d811);
 }
 

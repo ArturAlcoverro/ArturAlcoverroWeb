@@ -3,7 +3,7 @@ section:nth-child(1) {
     background: #ec8676;
 }
 
-section:nth-last-child(1) {
+section.back {
     background: #ec8676;
 }
 
