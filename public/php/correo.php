@@ -19,10 +19,9 @@
         $mail->SMTPSecure = "tls";
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 587;
-        $mail->Username = "riddleteam00@gmail.com";
-        $mail->Password = "Riddle123abp";
+        $mail->Username = "arturalcoverrocontact@gmail.com";
+        $mail->Password = "Kokoloko123";
 
-        $mail->AddAddress("riddleteam00@gmail.com");
         $mail->AddAddress("artur.bcn1998@gmail.com");
         $mail->SetFrom("$de", "Contacto");
         $mail->isHTML(true);
@@ -34,8 +33,8 @@
 
             header("Location: ../../");
         } catch(Exception $e){
-            // echo $mail->ErrorInfo;
-            header("Location: ../../");
+            echo $mail->ErrorInfo;
+            //header("Location: ../../");
         }
     }
 
