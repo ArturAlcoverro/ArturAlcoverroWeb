@@ -7,10 +7,11 @@
     $nombre = $_POST["name"];
     $de = $_POST["email"];
     $mensaje = $_POST["message"];
+    $subject = $_POST["subject"];
 
-    enviaCorreo($nombre, $de, $mensaje);
+    enviaCorreo($nombre, $de, $mensaje, $subject);
 
-    function enviaCorreo($nombre, $de, $mensaje){
+    function enviaCorreo($nombre, $de, $mensaje, $subject){
 
         $mail = new PHPMailer(true);
 
@@ -25,8 +26,10 @@
         $mail->AddAddress("artur.bcn1998@gmail.com");
         $mail->SetFrom("$de", "Contacto");
         $mail->isHTML(true);
-        $mail->Subject = "Correo de contacto - $de";
-        $mail->Body = "Mensaje de: " . $nombre . "<br/>" . $mensaje;
+        $mail->Subject = "(WEB PERSONAL) Correo de contacto: $de";
+        $mail->Body = "<b>Nombre:</b> " . $nombre . "<br/>" .
+                      "<b>Correo:</b> " . $de . "<br/>" .
+                      "<b>Asunto:</b> " . $subject . "<br/><br/>" .$mensaje;
 
         try {
             $mail->Send();
