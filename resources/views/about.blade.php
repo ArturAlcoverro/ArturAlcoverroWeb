@@ -76,7 +76,7 @@
                             <b>Web libraries:</b> Bootstrap, Jquery, Datatables.
                         </li>
                         <li>
-                            <b>Datatables:</b> SQL.
+                            <b>Databases:</b> SQL.
                         </li>
                         <li>
                             <b>Markup Language:</b> JSON, XML, HTML, CSS, XSLT.

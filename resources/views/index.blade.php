@@ -175,7 +175,7 @@
                         <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <form action="{{url('/')}}" method="post">
+                        <form action="{{asset('php/correo.php')}}" method="post">
                             <div class="form-group">
                             <label for="name">Name</label>
                             <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
