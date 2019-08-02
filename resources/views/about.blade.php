@@ -95,7 +95,7 @@
                             <b>Responsibility.</b>
                         </li>
                         <li>
-                            <b>Lidership</b>
+                            <b>Leadership</b>
                         </li>
                         <li>
                             <b>Hardworking</b>
@@ -105,7 +105,7 @@
         </div>
     </div>
     <section class="back">
-        <a class="no-contrast" href="{{url('/#work')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt="back-btn"></a>
+        <a class="no-contrast" href="{{url('/#about')}}"><img src="{{asset('/assets/imgs/back.svg')}}" alt="back-btn"></a>
     </section>
 </body>
 </html>
