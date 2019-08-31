@@ -50,8 +50,15 @@ section:nth-child(even) {
 @media (max-width: 768px) {
 
     .main-img {
-        top: 5VH;
+        top: 0VH;
     }
+
+    .main-img img {
+        padding: 30px;
+        min-height: auto;
+        height: auto;
+    }
+
 
 }
 
@@ -82,5 +89,7 @@ section:nth-child(even) {
 
     .main-img img {
         max-width: 90%;
+        padding: 10px 0;
+
     }
 }

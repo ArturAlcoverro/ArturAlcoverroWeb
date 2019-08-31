@@ -144,7 +144,7 @@
             <div id="projects">
                 <div class="project cleanotes" data-color="#FFA000" data-name="cleanotes">
                     <a href="{{url('/cleanotes')}}">
-                        <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="60%" alt="CleaNotes">
+                        <img src="{{asset('assets/imgs/cleanotesLogo.svg')}}" width="35%" alt="CleaNotes">
                     </a>
                 </div>
                 <div class="project riddle" data-color="#40bfa1" data-name="riddle">
