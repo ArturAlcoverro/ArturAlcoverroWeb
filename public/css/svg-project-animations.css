@@ -1,0 +1,140 @@
+:root {
+    --riddle-position: 19px;
+}
+
+.project svg {
+    transition: all 0.4s;
+}
+
+.project:hover svg {
+    transform: scale(1.2)
+}
+
+path {
+    fill: white
+}
+
+/** CLEANOTE **/
+
+.project.cleanotes:hover .cn0 {
+    animation: cleanotes1 linear 2s;
+}
+
+.project.cleanotes:hover .cn1 {
+    animation: cleanotes2 linear 1s;
+}
+
+.cn0 {
+    stroke-dasharray: 400 0;
+    stroke-width: 0;
+    fill: white;
+    transition: stroke-dasharray 1s, fill 0.5s 1s, stroke-width 0.5s 1s;
+}
+
+.cn1 {
+    stroke-dasharray: 500 0;
+    transition: stroke-dasharray 1s, fill 0.5s 1s, stroke-width 0.5s 1s;
+}
+
+@keyframes cleanotes1 {
+    0% {
+        fill: transparent;
+        stroke-width: 5px;
+        stroke: white;
+        stroke-dasharray: 0 400;
+
+    }
+
+    50% {
+        stroke: white;
+        fill: transparent;
+        stroke-width: 5px;
+        stroke-dasharray: 400 0;
+    }
+
+    75% {
+        stroke-width: 0;
+        stroke: white;
+        fill: white;
+        stroke-dasharray: 400 0;
+    }
+}
+
+@keyframes cleanotes2 {
+    from {
+        fill: transparent;
+        stroke: white;
+        stroke-dasharray: 0 500;
+    }
+
+    to {
+        stroke-dasharray: 400 0;
+        transition: stroke-dasharray 1s, fill 0.5s 1s, stroke-width 0.5s 1s;
+    }
+}
+
+
+/** RIDDLE **/
+
+.RID-on {
+    transform: translate(var(--riddle-position), 0px) !important;
+    transition-timing-function: cubic-bezier(1, -1.5, .8, .8) !important;
+
+}
+
+.DLE-on {
+    transform: translate(calc(var(--riddle-position) * -1 + .5px), 0px) !important;
+    transition-timing-function: cubic-bezier(1, -1.5, .8, .8) !important;
+
+}
+
+#RID {
+    transform: translate(0, 0px);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(.0, .0, 0, 2.5);
+}
+
+#DLE {
+    transform: translate(0, 0px);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(.0, .0, 0, 2.5);
+}
+
+
+/** BAREYNS **/
+
+.st15 {
+    clip-path: url(#SVGID_17_);
+    fill: none;
+    stroke: #FFF;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dashoffset: 0;
+}
+
+.st15-hide {
+    stroke: rgb(19, 19, 19);
+    stroke-dasharray: 9000 9000;
+    stroke-dashoffset: 9000;
+}
+
+.st15-play {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 3s linear;
+}
+
+
+/** ARTIO **/
+
+.sp0-hide {
+    fill: none
+}
+
+@media (max-width: 800px) {
+    .st15-play {
+        stroke-dashoffset: 0;
+        transition: stroke-dashoffset 1s linear;
+    }
+}
