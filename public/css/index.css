@@ -25,11 +25,11 @@ section {
 }
 
 section:nth-child(odd) {
-    background: #111;
+    background: rgb(17, 17, 17);
 }
 
 section:nth-child(even) {
-    background: #212121;
+    background: rgb(33, 33, 33);
 }
 
 #navbar {
@@ -43,7 +43,7 @@ section:nth-child(even) {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 0;
+    padding: 0 1.8vw 0 0;
     text-transform: uppercase;
     z-index: 10;
     transition: box-shadow 0.5s, background-color 0.5s, margin-top 0.4s;
@@ -69,7 +69,7 @@ button,
 .button {
     text-transform: uppercase;
     background: transparent;
-    border: 3px #ffffff91 solid;
+    border: 3px rgba(255, 255, 255, 0.569) solid;
     color: white;
     padding: 5px 15px;
     cursor: pointer;
@@ -80,7 +80,7 @@ button,
 
 button:hover,
 .button:hover {
-    color: #111;
+    color: hsl(0, 0%, 7%);
     background: white;
     text-decoration: none;
 }
@@ -131,7 +131,7 @@ button:hover,
 
 #navbar li a p {
     position: relative;
-    margin: 20px 3.6vw 22px 0vw;
+    margin: 20px 1.8vw 22px 1.8vw;
     text-align: right;
     /* opacity: 0; */
     transition: margin 0.3s, opacity 0.3s;
@@ -181,6 +181,8 @@ button:hover,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 0px 0px 40px 0 #00000091;
+    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;

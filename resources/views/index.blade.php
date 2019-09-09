@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{app()->getLocale()}}">
 
 <head>
     <meta charset="UTF-8">
@@ -41,22 +41,22 @@
             <ul>
                 <li>
                     <a href="#main">
-                        <p>Main</p>
+                        <p>@lang('index.main')</p>
                     </a>
                 </li>
                 <li>
                     <a href="#about">
-                        <p>About</p>
+                        <p>@lang('index.about')</p>
                     </a>
                 </li>
                 <li>
                     <a href="#work">
-                        <p>Work</p>
+                        <p>@lang('index.work')</p>
                     </a>
                 </li>
                 <li>
                     <a href="#contact">
-                        <p>Contact</p>
+                        <p>@lang('index.contact')</p>
                     </a>
                 </li>
             </ul>
@@ -67,40 +67,40 @@
     </div>
     <div class="content">
         <ul id="navbar" class="navbar-hide">
-            <a href="/" id="logoLink" class="logo logo-hide">
+            <a href="{{url('/')}}" id="logoLink" class="logo logo-hide">
                 <img src="{{asset('assets/imgs/logo.svg')}}" class="logo" alt="logo">
             </a>
             <li>
                 <a href="#main">
-                    <p>Main</p>
+                    <p>@lang('index.main')</p>
                 </a>
             </li>
             <li>
                 <a href="#about">
-                    <p>About</p>
+                    <p>@lang('index.about')</p>
                 </a>
             </li>
             <li>
                 <a href="#work">
-                    <p>Work</p>
+                    <p>@lang('index.work')</p>
                 </a>
             </li>
             <li>
                 <a href="#contact">
-                    <p>Contact</p>
+                    <p>@lang('index.contact')</p>
                 </a>
             </li>
         </ul>
         <button id='acces'></button>
         <section id="main" class="scale-30">
             <p class="no-contrast"><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
-            <p class="no-contrast">Software & Web Developer</p>
+            <p class="no-contrast">@lang('index.S&W-developer')</p>
             <a href="#about" class="arrow arrow-animation">
                 <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow" alt="scrollDown">
             </a>
         </section>
         <section id="about">
-            <h1>ABOUT ME</h1>
+            <h1>@lang('index.about-title')</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -108,18 +108,19 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <p class="hide fade delay profile-text">
-                            Hi! I'm Artur Alcoverro, a software developer from Barcelona graduated in Centre d'estudis Politècnics.
+                            @lang('index.about-text-1')
                             <br>
                             <br>
-                            I am a passionate about technology, videogames and fantastic literature and I'm currently working in Telematel as a junior programmer.</p>
-                            <br>
-                            <a class="button" href="{{url('/about')}}">More about me</a>
+                            @lang('index.about-text-2')
+                        </p>
+                        <br>
+                        <a class="button" href="{{url('/about')}}">@lang('index.about-button')</a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="work">
-            <h1>My work</h1>
+            <h1>@lang('index.work-title')</h1>
             <div class="animations">
                 <div class="position-relative h-100">
                     <div class="animation animation-cleanotes">
@@ -148,8 +149,7 @@
                         <svg version="1.1" width="35%" id="cleanotes-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 498 498" style="enable-background:new 0 0 498 498;" xml:space="preserve">
                             <style type="text/css">
-
-                            .cn1{fill:none;stroke:#FFFFFF;stroke-width:20;stroke-linejoin:round;stroke-miterlimit:10;}
+                                .cn1{fill:none;stroke:#FFFFFF;stroke-width:20;stroke-linejoin:round;stroke-miterlimit:10;}
                             </style>
                             <image style="display:none;overflow:visible;" width="196" height="196" xlink:href="CNLogo.png"  transform="matrix(2.49 0 0 2.49 4.98 4.98)">
                             </image>
@@ -448,46 +448,30 @@
                 </div>
                 <div class="project spam" data-color="#79b61e" data-name="artio">
                     <a href="{{url('/artio')}}">
-                        <svg width="30%" version="1.1" id="spam-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <svg width="33%" version="1.1" id="spam-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 306.7 308.7" style="enable-background:new 0 0 306.7 308.7;" xml:space="preserve">
                             <style type="text/css">
-                                .sp0{fill:#FFFFFF;}
+                                .at0{clip-path:url(#mascara_1_);fill:#FFFFFF;}
                             </style>
                             <g>
-                                <path class="sp0" d="M157.1,299.6c0.2-1.1,0.4-2.1,0.6-3.2c0.7-3.6,1.5-7.2,2.2-10.8l2.7-12.6c2.8-13.1,5.8-26.6,8.7-40
-                                    c3.7,0.5,7.5,0.7,11.3,0.7c34.9,0,67.4-20,84.8-52.3c3.4-6.2,4.2-11.6,2.5-16.4c-1.7-4.8-5.8-8.4-12.5-11.1
-                                    c-3.1-1.3-6.2-2.5-9.4-3.7c-11.6-4.6-23.7-9.4-35.4-14.3l-0.1,0c-0.3-0.2-1.1-1-1.4-1.7c-5.5-16.3-15.8-27.1-30.6-32.4
-                                    c-0.2-0.1-0.4-0.2-0.6-0.2c0-0.1,0-0.1,0-0.2c-0.3-4.9-0.7-9.8-1.1-14.6c-0.3-3.6-0.6-7.2-0.9-10.8c-0.8-11.2-6.8-15.6-11.7-17.3
-                                    c-1.8-0.7-3.7-1-5.5-1c-5,0-9.5,2.4-13.9,7.3c-1.8,2-3.6,3.9-5.5,6c-0.5-1.7-0.9-3.4-1.4-5.1c-1.3-4.9-2.7-9.9-4.4-14.8
-                                    c-2.6-7.3-8.8-12.1-15.8-12.1c-4.4,0-8.6,1.8-11.9,5.2c-2.7,2.7-4.2,6.3-5.2,9.2c-7.1,19.3-14.2,39-21,58l0,0.1
-                                    C69.4,145,56.8,179.7,44.5,214c-0.1,0.3-0.2,0.5-0.2,0.6c-0.1,0-0.2,0-0.3,0c-8.2,0.1-16.2,0.6-22.3,1c-0.1,0-0.1,0-0.2,0
-                                    c-1.1-3.1-2.2-6.2-3.2-9.2c-2.2-6.1-4.5-12.5-6.3-18.8c-1.3-4.8-2.1-9.9-2.9-15.2c-0.3-2.1-0.6-4.2-1-6.4v-23
-                                    c0.1-0.2,0.1-0.5,0.2-0.7c0.3-1.1,0.6-2.4,0.7-3.7c2.9-28.3,14.3-55,33.1-77.3C60.8,39,85.2,23.1,112.6,15.5l2.4-0.7
-                                    c8.3-2.3,14.3-4,26.4-5.2c4.3-0.3,7.7-0.4,10.9-0.4c3.2,0,6,0.1,9.5,0.3l2.5,0.1c1.2,0.2,3.3,0.4,8.2,0.7c0.9,0.1,1.7,0.1,2,0.1
-                                    c29.9,3.1,56.8,15.4,77.8,35.5c20.5,19.6,35,46.2,42.1,76.8c1.1,4.7,1.9,9.6,2.6,14.3c0.3,2,0.6,4,1,6v23c-0.1,0.2-0.1,0.5-0.2,0.7
-                                    c-0.3,1.1-0.6,2.4-0.7,3.7c-2.9,28.3-14.4,55.1-33.1,77.4c-18.8,22.4-43.2,38.2-70.6,45.8c-6.8,1.9-13.9,3.1-20.9,4.4
-                                    c-2.7,0.5-5.3,0.9-8,1.4H157.1z"/>
-                                <path class="sp0" d="M152.3,4.2l0,10h0c3.1,0,5.8,0.1,9.3,0.3c0.7,0,1.5,0.1,2.3,0.1c1.4,0.2,3.7,0.4,8.4,0.7
-                                    c0.8,0.1,1.5,0.1,1.8,0.1c28.8,3,54.7,14.8,74.9,34.1c19.8,18.9,33.8,44.6,40.6,74.4c1,4.5,1.8,9.1,2.5,13.9
-                                    c0.3,1.8,0.6,3.7,0.9,5.6v22c0,0,0,0.1,0,0.1c-0.3,1.2-0.7,2.7-0.8,4.5c-2.8,27.3-13.9,53.1-32,74.7C242,266.4,218.4,281.7,192,289
-                                    c-6.5,1.8-13.2,3-20.4,4.3c-2.5,0.4-5,0.9-7.6,1.4h-0.8c0.5-2.6,1.1-5.3,1.6-7.9l2.7-12.3c2.6-11.8,5.2-23.9,7.9-36
-                                    c2.5,0.2,4.9,0.3,7.4,0.3c36.7,0,70.9-21,89.2-54.9c4-7.5,5-14.3,2.8-20.4c-2.2-6.1-7.4-10.9-15.4-14.1c-3.1-1.3-6.3-2.5-9.4-3.7
-                                    c-11.3-4.5-23-9.2-34.3-13.9C210,115.3,199.6,104,184.9,98c-0.3-3.9-0.6-7.9-0.9-11.7c-0.3-3.5-0.6-7.2-0.9-10.8
-                                    c-1-14.7-9.8-19.9-15.1-21.7c-2.4-0.8-4.8-1.3-7.2-1.3c-6.1,0-11.8,2.7-17,8.2c-1-3.8-2.2-7.7-3.5-11.6
-                                    c-3.3-9.4-11.3-15.4-20.5-15.4c-5.7,0-11.2,2.4-15.5,6.6c-3.4,3.4-5.2,7.7-6.3,11c-7.1,19.4-14.2,39.1-21.1,58.1
-                                    c-11.9,32.8-24.2,66.6-36.2,100c-5.6,0.1-11.1,0.4-15.8,0.7c-0.7-1.9-1.3-3.8-2-5.6c-2.3-6.3-4.4-12.3-6.1-18.4
-                                    c-1.2-4.6-2-9.5-2.8-14.6c-0.3-2-0.6-4-1-6v-22c0,0,0-0.1,0-0.1c0.3-1.2,0.7-2.7,0.8-4.5c2.8-27.3,13.8-53.1,31.9-74.6
-                                    C64,43,87.6,27.7,114,20.3c0.8-0.2,1.6-0.5,2.4-0.7c8.3-2.3,13.9-3.9,25.5-5c4.1-0.3,7.5-0.4,10.5-0.4L152.3,4.2 M39.7,212.5
-                                    L39.7,212.5C39.7,212.5,39.7,212.5,39.7,212.5 M152.3,4.2c-3.1,0-6.6,0.1-11.3,0.5c-13.7,1.3-20,3.3-29.7,6
-                                    C53.4,26.8,10.1,78.5,4,138.2c-0.1,1.4-0.6,2.9-0.9,4.3c0,8,0,16,0,24c1.3,7.5,2.1,15.2,4.1,22.5c2.7,9.6,6.4,18.9,9.6,28.3
-                                    c0.8,2.4,2.1,3.3,4.4,3.3c0.2,0,0.5,0,0.8,0c7.4-0.5,14.7-0.9,22-1c3,0,4.2-1.2,5.2-3.9c12.3-34.2,24.7-68.4,37.1-102.6
-                                    c7-19.4,14-38.8,21.1-58.2c0.9-2.6,2.1-5.4,4-7.3c2.5-2.5,5.5-3.7,8.4-3.7c4.7,0,9.1,3.1,11.1,8.7c2.4,6.9,4.1,14.1,6.1,21.1
-                                    c0.6,2.1,1.3,4.1,2.1,7c4.2-4.5,7.9-8.4,11.5-12.4c2.9-3.2,6.2-5.6,10.2-5.6c1.2,0,2.5,0.2,3.9,0.7c5.9,2,8,7,8.4,12.9
+                                <defs>
+                                    <path id="mascara" d="M154.2,4.4c-82.8,0-150,67.2-150,150c0,23.8,5.5,46.2,15.4,66.2c24.5,49.6,75.6,83.8,134.6,83.8
+                                        c82.8,0,150-67.2,150-150S237.1,4.4,154.2,4.4z"/>
+                                </defs>
+                                <clipPath id="mascara_1_">
+                                    <use xlink:href="#mascara"  style="overflow:visible;"/>
+                                </clipPath>
+                                <path id="objeto" class="at0" d="M768.7,66.4C754.2-54,632.9-115.7,521.1-172.6c-78.4-39.8-289.5-149-412.6-52.3
+                                    C67-192.3,47.3-140.4,9.3-35C-34.2,85.3-26.8,155-13.4,174.2c2.7,3.9,13.9,17.5,13.4,35.6c-0.3,8.8-3.1,12.1-3.1,21.6
+                                    c0,15.4,7.4,26.8,10.8,32.4c25.3,42,14.7,76.4,34,83.6c24,8.9,49.4-41.1,112.6-42.9c1.7,0,3.1-0.1,4.1-0.1l295.9,0.1
+                                    c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0l8,0c55.4,7.7,110.7,15.3,166.1,23C641.7,317.5,785.6,207.7,768.7,66.4z M19.7,220.6
+                                    C19.7,220.6,19.7,220.6,19.7,220.6C19.6,220.6,19.6,220.6,19.7,220.6c2.6-1.6,10.7-1,24.4-1c3,0,4.2-1.2,5.2-3.9
+                                    c12.3-34.2,24.7-68.4,37.1-102.6c7-19.4,14-38.8,21.1-58.2c0.9-2.6,2.1-5.4,4-7.3c6.6-6.6,16.3-4.1,19.5,5
+                                    c2.4,6.9,4.1,14.1,6.1,21.1c0.6,2.1,1.3,4.1,2.1,7c4.2-4.5,7.9-8.4,11.5-12.4c3.8-4.2,8.3-7,14.1-4.9c5.9,2,8,7,8.4,12.9
                                     c0.6,8.5,1.5,16.9,2,25.4c0.2,2.8,1.4,3.9,3.9,4.8c14.2,5,22.9,15.3,27.6,29.4c0.7,1.8,2.5,3.9,4.3,4.6
-                                    c14.8,6.2,29.8,12.1,44.8,18.1c10.4,4.2,12.8,10.7,7.5,20.5c-15.9,29.4-46.6,49.7-80.4,49.7c-4,0-8-0.3-12.1-0.9c-0.3,0-0.7,0-1,0
-                                    c-0.7,0-1.3,0-2.2,0c-4.2,19-8.3,37.9-12.4,56.7c-1.4,6.6-2.7,13.3-4.1,20c4.7,0,9.3,0,14,0c9.9-1.9,20-3.3,29.7-6
-                                    c57.9-16,101.3-67.9,107.4-127.6c0.1-1.4,0.6-2.9,0.9-4.3c0-8,0-16,0-24c-1.2-7-2.1-14.1-3.7-21C284.8,58.4,239.3,12.2,175,5.5
-                                    c-1.1-0.1-8.9-0.5-10-0.8C160.1,4.5,156.6,4.2,152.3,4.2L152.3,4.2z"/>
+                                    c14.8,6.2,29.8,12.1,44.8,18.1c10.4,4.2,12.8,10.7,7.5,20.5c-17.8,32.9-54,54.3-92.5,48.8c-1-0.1-1.9,0-3.2,0
+                                    c-4.2,19-8.3,37.9-12.4,56.7c-1.4,6.5-2.7,13.1-4.1,19.8c-6.4,13.6-16.4,28-32.4,36.3C56.8,372.9-48,289.3-39.8,257
+                                    C-34.6,236.6,19.7,220.6,19.7,220.6z"/>
                             </g>
                         </svg>
                     </a>
@@ -495,7 +479,7 @@
             </div>
         </section>
         <section id="contact">
-            <h1>CONTACT</h1>
+            <h1>@lang('index.contact-title')</h1>
             <div class="container mt-4">
                 <div class="row">
                     <div class="col-12 col-lg-6 rrss">
@@ -507,22 +491,22 @@
                     <div class="col-12 col-lg-6">
                         <form action="{{asset('php/correo.php')}}" method="post">
                             <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name">@lang('index.contact-label-name')</label>
                             <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
                             </div>
                             <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email">@lang('index.contact-label-email')</label>
                                 <input required type="email" class="form-control" name="email" id="email" aria-describedby="email">
                             </div>
                             <div class="form-group">
-                            <label for="subject">Subject</label>
+                            <label for="subject">@lang('index.contact-label-subject')</label>
                                 <input required type="text" class="form-control" name="subject" id="subject" aria-describedby="subject">
                             </div>
                             <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message">@lang('index.contact-label-message')</label>
                             <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
                             </div>
-                            <button type="submit" class="send-btn">Submit</button>
+                            <button type="submit" class="send-btn">@lang('index.contact-label-submit')</button>
                         </form>
                     </div>
                 </div>

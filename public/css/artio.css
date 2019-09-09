@@ -1,9 +1,9 @@
 section:nth-child(1) {
-    background: linear-gradient(to bottom, #96d811, #76b61e);
+    background: linear-gradient(to bottom, rgb(150, 216, 17), rgb(118, 182, 30));
 }
 
 section.back {
-    background: linear-gradient(45deg, #76b61e, #96d811);
+    background: linear-gradient(45deg, rgb(118, 182, 30), rgb(150, 216, 17));
 }
 
 section:nth-child(even) {
@@ -74,8 +74,8 @@ video {
 .video-buttons button {
     margin: 2px;
     background: rgb(231, 231, 231);
-    border: 1px solid #d3d3d3;
-    color: #1b1b1b;
+    border: 1px solid rgb(211, 211, 211);
+    color: rgb(27, 27, 27);
     cursor: pointer;
     border-radius: 3px;
     font-size: 18px;

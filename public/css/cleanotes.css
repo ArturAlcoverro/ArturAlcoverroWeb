@@ -1,5 +1,5 @@
 section:nth-child(odd) {
-    background: linear-gradient(-45deg, #FFC107, #FF9800);
+    background: linear-gradient(-45deg, hsl(45, 100%, 51%), hsl(36, 100%, 50%));
 }
 
 section:nth-child(even) {

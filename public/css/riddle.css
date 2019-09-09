@@ -1,9 +1,9 @@
 section:nth-child(1) {
-    background: linear-gradient(45deg, #2DE5A7, #0EEADC);
+    background: linear-gradient(45deg, rgb(46, 229, 168), rgb(13, 236, 221));
 }
 
 section.back {
-    background: linear-gradient(45deg, #0EEADC, #2DE5A7);
+    background: linear-gradient(45deg, rgb(14, 234, 220), rgb(45, 229, 167));
 }
 
 section:nth-child(even) {

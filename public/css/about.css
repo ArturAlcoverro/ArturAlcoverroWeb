@@ -22,12 +22,15 @@
 }
 
 #about img {
+    box-shadow: 10px 10px 10px 0 #00000044;
+    border-radius: 3px;
+
     max-width: 70%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-#about p{
+#about p {
     color: white;
 }

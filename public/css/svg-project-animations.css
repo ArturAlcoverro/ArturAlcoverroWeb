@@ -77,13 +77,13 @@ path {
 /** RIDDLE **/
 
 .RID-on {
-    transform: translate(var(--riddle-position), 0px) !important;
+    transform: translate(19px, 0px) !important;
     transition-timing-function: cubic-bezier(1, -1.5, .8, .8) !important;
 
 }
 
 .DLE-on {
-    transform: translate(calc(var(--riddle-position) * -1 + .5px), 0px) !important;
+    transform: translate(-18.5px, 0px) !important;
     transition-timing-function: cubic-bezier(1, -1.5, .8, .8) !important;
 
 }
@@ -106,7 +106,7 @@ path {
 .st15 {
     clip-path: url(#SVGID_17_);
     fill: none;
-    stroke: #FFF;
+    stroke: rgb(255, 255, 255);
     stroke-width: 22;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -128,9 +128,60 @@ path {
 
 /** ARTIO **/
 
-.sp0-hide {
-    fill: none
+.project.spam:hover #mascara_1_ {
+    animation: move-mascara ease-out 1s;
 }
+
+.project.spam:hover #objeto {
+    animation: move-objeto ease-out 1s;
+}
+
+.project.spam:hover #spam-svg {
+    animation: big ease-out 0.5s;
+}
+
+@keyframes big {
+    from {
+        width: 0%;
+        height: auto;
+    }
+
+    to {
+        width: 33%;
+        height: auto;
+    }
+}
+
+@keyframes move-objeto {
+    0% {
+        transform: translate(-300px, 50px);
+    }
+
+    50% {
+        transform: translate(-300px, 50px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes move-mascara {
+    0% {
+        transform: translate(300px, -50px);
+
+    }
+
+    50% {
+        transform: translate(300px, -50px);
+
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 
 @media (max-width: 800px) {
     .st15-play {

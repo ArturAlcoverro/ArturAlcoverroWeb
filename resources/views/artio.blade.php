@@ -18,7 +18,7 @@
 @endsection
 
 @section('eslogan')
-   Donations Manager for SPAM.
+   @lang('artio.eslogan')
 @endsection
 
 @section('subtitle')
@@ -31,7 +31,7 @@
 @endsection
 
 @section('about-title')
-    About Artio
+    @lang('artio.about-title')
 @endsection
 
 @section('about-img')
@@ -41,23 +41,22 @@
 @endsection
 
 @section('about-text')
-    <p class="hide fade-left delay">Artio is a donation manager developed for the NGO SPAM (Protective society of Mataró).
-        This web application is formed by a public and a private part. The public part is accessible to everyone and allows you to see the donations received by the NGO.
-        The private part is the manager, which only SPAM workers can access
-        <br>
-        <br>
-        This is my biggest project and it was only possible thanks to the help of my teammates David Corredera, Xavi Liceran and Samuel Martín.
+    <p class="hide fade-left delay">
+        @lang('artio.about-text1')
+            <br>
+            <br>
+        @lang('artio.about-text2')
     </p>
-    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">Public part.</a>
-    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/login">Private part (Demo).</a>
-    <p class="hide fade-left delay2 tip"> *Email: demo@artio.com // Password: demo123 </p>
+    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">@lang('artio.about-tip1')</a>
+    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/login">@lang('artio.about-tip2')</a>
+    <p class="hide fade-left delay2 tip">@lang('artio.about-tip3')</p>
 
 @endsection
 
 @section('demo')
 <div class="container demo">
     <div class="row hide fade-top">
-        <h2 class="about-title text-center w-100">Guide private part</h2>
+        <h2 class="about-title text-center w-100">@lang('artio.video-title')</h2>
         <div class="col-12">
             <video id="video-artio" controls>
                 <source src="{{asset('/assets/videos/demo.mp4')}}" type="video/mp4">
@@ -65,12 +64,12 @@
               </video>
         </div>
         <div class="col-12 video-buttons">
-            <button data-time="6" data-end="74">Basic functions</button>
-            <button data-time="74" data-end="177">Create donation</button>
-            <button data-time="177" data-end="236">Edit donation</button>
-            <button data-time="236" data-end="307">Filter donation</button>
-            <button data-time="307" data-end="433">Create chart</button>
-            <p class="mt-3"><b>*Click the buttons to whatch the funcionality you want.</b></p>
+            <button data-time="6" data-end="74">@lang('artio.video-button1')</button>
+            <button data-time="74" data-end="177">@lang('artio.video-button2')</button>
+            <button data-time="177" data-end="236">@lang('artio.video-button3')</button>
+            <button data-time="236" data-end="307">@lang('artio.video-button4')</button>
+            <button data-time="307" data-end="433">@lang('artio.video-button5')</button>
+            <p class="mt-3"><b>@lang('artio.video-tip')</b></p>
         </div>
     </div>
 </div>

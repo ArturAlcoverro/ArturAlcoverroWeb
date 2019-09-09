@@ -1,10 +1,9 @@
 section:nth-child(1) {
-    /* background: linear-gradient(45deg, #2DE5A7, #0EEADC); */
-    background: #ec8676;
+    background: rgb(236, 134, 118);
 }
 
 section.back {
-    background: #ec8676;
+    background: rgb(236, 134, 118);
 }
 
 section:nth-child(even) {
