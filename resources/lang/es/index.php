@@ -1,5 +1,7 @@
 <?php
 return [
+    "es"                    => "Castellano",
+    "en"                    => "Ingles",
     "main"                  => "Inicio",
     "about"                 => "Sobre mi",
     "work"                  => "Proyectos",

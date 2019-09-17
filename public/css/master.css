@@ -31,7 +31,7 @@
     color: white !important;
 }
 
-#acces {
+#lang {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     z-index: 2;
@@ -45,6 +45,38 @@
     background-size: 90%;
     background-repeat: no-repeat;
     background-image: url('../assets/imgs/lenguage.svg')
+}
+
+#lang-menu {
+    z-index: 3;
+    position: fixed;
+    bottom: 13px;
+    left: 13px;
+    overflow: hidden;
+    transition: all 0.5s;
+    background: black;
+    color: white;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+#lang-menu ul{
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#lang-menu li{
+    list-style-type: none;
+    font-family: 'Mont';
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.lang-hide{
+    /* max-width: 0 !important; */
+    /* max-height: 0 !important; */
 }
 
 .acces-bg {
