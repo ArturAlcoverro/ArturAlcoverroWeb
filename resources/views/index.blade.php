@@ -106,7 +106,7 @@
             </a>
         </section>
         <section id="about">
-            <h1>@lang('index.about-title')</h1>
+            <h1 class="hide fade-top" >@lang('index.about-title')</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -120,13 +120,13 @@
                             @lang('index.about-text-2')
                         </p>
                         <br>
-                        <a class="button" href="{{url('/about')}}">@lang('index.about-button')</a>
+                        <a class="button hide fade delay2" href="{{url('/about')}}">@lang('index.about-button')</a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="work">
-            <h1>@lang('index.work-title')</h1>
+            <h1 class="hide fade-top" >@lang('index.work-title')</h1>
             <div class="animations">
                 <div class="position-relative h-100">
                     <div class="animation animation-cleanotes">
@@ -157,7 +157,7 @@
                             <style type="text/css">
                                 .cn1{fill:none;stroke:#FFFFFF;stroke-width:20;stroke-linejoin:round;stroke-miterlimit:10;}
                             </style>
-                            <image style="display:none;overflow:visible;" width="196" height="196" xlink:href="CNLogo.png"  transform="matrix(2.49 0 0 2.49 4.98 4.98)">
+                            <image style="display:none;overflow:visible;" width="196" height="196"  transform="matrix(2.49 0 0 2.49 4.98 4.98)">
                             </image>
                             <path class="cn0 cn0-on" d="M164.2,174.2c-2.2-3.7-10.2-5.6-24.2-5.6c-18.3,0-32.2,6.2-41.6,18.6c-9.4,12.4-14.2,30.3-14.2,53.7
                                 c0,48.6,18.2,72.9,54.6,72.9c0.6,0,3.2,0,7.8,0c4.6,0,9-0.6,13.1-1.9c4.1-1.3,6.6-2.6,7.4-4c0.8-1.4,1.2-3.5,1.2-6.5v-23.6l30.1,2.1
@@ -485,16 +485,16 @@
             </div>
         </section>
         <section id="contact">
-            <h1>@lang('index.contact-title')</h1>
+            <h1 class="hide fade-top" >@lang('index.contact-title')</h1>
             <div class="container mt-4">
                 <div class="row">
-                    <div class="col-12 col-lg-6 rrss">
+                    <div class="col-12 col-lg-6 rrss hide fade-top">
                         <a href="https://www.instagram.com/artur_alcoverro/" target="_blank" class="rs instagram"></a>
                         <a href="https://twitter.com/ArturAlcoverro" target="_blank" class="rs twitter"></a>
                         <a href="https://www.linkedin.com/in/artur-alcoverro-9b5823179/" target="_blank" class="rs linkedin"></a>
                         <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 hide fade-top">
                         <form action="{{asset('php/correo.php')}}" method="post">
                             <div class="form-group">
                             <label for="name">@lang('index.contact-label-name')</label>

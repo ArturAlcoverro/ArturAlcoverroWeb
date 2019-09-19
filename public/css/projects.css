@@ -30,14 +30,13 @@
 
 #work h1 {
     font-size: 3.750em;
-    font-family: 'Mont', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     color: white;
     width: 100%;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     z-index: 2;
-    transition: color 0.3s;
 }
 
 .project {

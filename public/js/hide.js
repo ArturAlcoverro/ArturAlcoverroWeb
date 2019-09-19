@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on('load',function () {
 
     var scroll = $(window).scrollTop();
     var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();

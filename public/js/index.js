@@ -1,6 +1,6 @@
 var menu = false;
 
-$(document).ready(function () {
+$(window).on('load',function () {
     $("#main").removeClass("scale-30");
     setTimeout(function () {
         $("#main p:nth-child(1)").animate({

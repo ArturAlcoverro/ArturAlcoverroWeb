@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+button:focus{
+    outline: none
+}
+
 .contrast-navbar {
     background-color: black !important;
 }
@@ -55,14 +59,13 @@
     z-index: 3;
     position: fixed;
     bottom: 13px;
-    left: 43px;
+    left: 13px;
     overflow: hidden;
-    transition: all 0.5s;
-    background: black;
+    background: rgb(17, 17, 17);
     color: white;
     max-height: 300px;
     max-width: 300px;
-
+    transition: all 0.4s;;
 }
 
 #lang-menu ul{
@@ -93,6 +96,7 @@
 
 
 .lang-hide{
+    transition: none !important;
     max-width: 0 !important;
 }
 

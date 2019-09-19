@@ -16,6 +16,15 @@ $(document).ready(function () {
         .click(function (e) {
             e.preventDefault();
         });
+
+    $('body').click(function(e){
+        var target = e.target.id;
+        if(lang & target != 'lang' & target != 'es-btn' & target != 'en-btn'){
+            lang = false;
+            langMenu(false)
+        }
+    });
+
 });
 
 function setCookie(cname, cvalue, exdays) {
@@ -61,9 +70,7 @@ function contrast(cookie) {
 function langMenu(active) {
     if (active){
         $("#lang-menu").removeClass('lang-hide');
-        $("#lang").addClass('lang-close');
     }else{
         $("#lang-menu").addClass('lang-hide');
-        $("#lang").removeClass('lang-close');
     }
 }
