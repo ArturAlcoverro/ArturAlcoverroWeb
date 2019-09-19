@@ -1,15 +1,21 @@
 $(document).ready(function () {
-    var cookie = getCookie('acces');
-    contrast(cookie);
+    var lang = false;
 
-    $('#acces').click(function () {
-        var cookie = getCookie('acces');
-        if (cookie == 'true') {
-            contrast('false');
+    $('#lang').click(function () {
+        if (lang) {
+            lang = false;
         } else {
-            contrast('true');
+            lang = true;
         }
+        langMenu(lang);
+
     });
+
+    $("#" + document.documentElement.lang + "-btn")
+        .addClass('active')
+        .click(function (e) {
+            e.preventDefault();
+        });
 });
 
 function setCookie(cname, cvalue, exdays) {
@@ -49,5 +55,15 @@ function contrast(cookie) {
         $('h1, h2, h3, h4, h5, h6, p, a').removeClass('contrast');
         $('.si-contrast').removeClass('contrast');
         $('#navbar').removeClass('contrast-navbar');
+    }
+}
+
+function langMenu(active) {
+    if (active){
+        $("#lang-menu").removeClass('lang-hide');
+        $("#lang").addClass('lang-close');
+    }else{
+        $("#lang-menu").addClass('lang-hide');
+        $("#lang").removeClass('lang-close');
     }
 }

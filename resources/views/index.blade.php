@@ -94,8 +94,8 @@
         <button id='lang'></button>
         <div id="lang-menu" class="lang-hide">
             <ul>
-                <li><a href="locale/es">@lang('index.es')</a></li>
-                <li><a href="locale/en">@lang('index.en')</a></li>
+                <li><a id="en-btn" href="locale/en">@lang('index.en')</a></li>
+                <li><a id="es-btn" href="locale/es">@lang('index.es')</a></li>
             </ul>
         </div>
         <section id="main" class="scale-30">

@@ -47,11 +47,15 @@
     background-image: url('../assets/imgs/lenguage.svg')
 }
 
+.lang-close {
+    background-image: url('../assets/imgs/close.svg') !important;
+}
+
 #lang-menu {
     z-index: 3;
     position: fixed;
     bottom: 13px;
-    left: 13px;
+    left: 43px;
     overflow: hidden;
     transition: all 0.5s;
     background: black;
@@ -71,12 +75,25 @@
     font-family: 'Mont';
     font-size: 1.1rem;
     font-weight: bold;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
+#lang-menu li a.active{
+    color:white;
+}
+
+#lang-menu li a{
+    color:rgba(255, 255, 255, 0.63);
+}
+
+#lang-menu li a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
 .lang-hide{
-    /* max-width: 0 !important; */
-    /* max-height: 0 !important; */
+    max-width: 0 !important;
 }
 
 .acces-bg {
