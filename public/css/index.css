@@ -33,7 +33,7 @@ section:nth-child(even) {
 }
 
 #navbar {
-    font-family: 'Mont';
+    font-family: 'Gilroy';
     font-size: 1.1rem;
     font-weight: bold;
     width: 100%;
@@ -69,13 +69,19 @@ button,
 .button {
     text-transform: uppercase;
     background: transparent;
-    border: 3px rgba(255, 255, 255, 0.569) solid;
+    border: 2px rgba(255, 255, 255, 0.569) solid;
     color: white;
     padding: 5px 15px;
     cursor: pointer;
     transition: color 0.2s, background 0.2s;
     font-size: 20px;
     font-weight: 600;
+
+}
+
+.button.fade{
+    transition: color 0.2s, background 0.2s, top 1s, right 1s, left 1s, bottom 1s, opacity 1s !important;
+    transition-delay: 0.5s !important;
 }
 
 button:hover,
@@ -141,7 +147,7 @@ button:hover,
 .menu-list p:before {
     content: '';
     position: absolute;
-    height: 4px;
+    height: 3px;
     width: 0%;
     top: 100%;
     left: 0%;

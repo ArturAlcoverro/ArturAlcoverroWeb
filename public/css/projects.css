@@ -217,6 +217,7 @@
 
     #work {
         min-height: 0px;
+        padding: 6vw 0;
     }
 
 }
@@ -229,6 +230,9 @@
         width: calc(44%);
         height: calc(44vw);
         margin: 4vw 2vw 0 2vw;
+    }
+    #work {
+        padding: 4vw 0;
     }
 }
 

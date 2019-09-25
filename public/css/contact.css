@@ -28,9 +28,11 @@ label {
 
 .form-control {
     border-radius: 0;
-    border: 3px rgba(255, 255, 255, 0.569) solid;
+    border: 2px rgba(255, 255, 255, 0.569) solid;
     background-color: transparent;
     color: white;
+    padding: .3rem .4rem .4rem .5rem ;
+
 }
 
 .form-control:focus {
@@ -43,7 +45,7 @@ label {
 
 input:-internal-autofill-selected {
     background: transparent;
-    color: white;
+    color: white !important;
 }
 
 textarea {

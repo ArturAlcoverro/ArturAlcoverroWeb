@@ -61,3 +61,7 @@ function hideMenu() {
 
     menu = false;
 }
+
+function submitMail(token){
+    document.getElementById("mail-form").submit();
+}

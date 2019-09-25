@@ -27,6 +27,8 @@
     <script src="{{asset('/js/project.js')}}"></script>
     <script src="{{asset('/js/hide.js')}}"></script>
     <script src="{{asset('/js/master.js')}}"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 </head>
 
@@ -120,7 +122,7 @@
                             @lang('index.about-text-2')
                         </p>
                         <br>
-                        <a class="button hide fade delay2" href="{{url('/about')}}">@lang('index.about-button')</a>
+                        <a class="button hide fade delay" href="{{url('/about')}}">@lang('index.about-button')</a>
                     </div>
                 </div>
             </div>
@@ -495,7 +497,7 @@
                         <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
                     <div class="col-12 col-lg-6 hide fade-top">
-                        <form action="{{asset('php/correo.php')}}" method="post">
+                        <form id="mail-form" action="{{asset('php/correo.php')}}" method="post">
                             <div class="form-group">
                             <label for="name">@lang('index.contact-label-name')</label>
                             <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
@@ -512,7 +514,7 @@
                             <label for="message">@lang('index.contact-label-message')</label>
                             <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
                             </div>
-                            <button type="submit" class="send-btn">@lang('index.contact-label-submit')</button>
+                            <button  class="send-btn g-recaptcha" data-sitekey="6Ld8W7oUAAAAABKxF0Z_sg1wCB3OU-MYJBB-duK3" data-callback='submitMail'>@lang('index.contact-label-submit')</button>
                         </form>
                     </div>
                 </div>
