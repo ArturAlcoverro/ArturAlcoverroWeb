@@ -96,6 +96,10 @@ button:hover,
     margin-top: 20px;
 }
 
+.grecaptcha-badge{
+	visibility: collapse !important;
+}
+
 /* #navbar li:before {
     content: '';
     width: 13px;
