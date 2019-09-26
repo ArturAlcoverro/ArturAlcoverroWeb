@@ -514,7 +514,7 @@
                             <label for="message">@lang('index.contact-label-message')</label>
                             <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
                             </div>
-                            <button  class="send-btn g-recaptcha" data-sitekey="6Ld8W7oUAAAAABKxF0Z_sg1wCB3OU-MYJBB-duK3" data-callback='submitMail'>@lang('index.contact-label-submit')</button>
+                            <button class="send-btn g-recaptcha" data-sitekey="6Ld8W7oUAAAAABKxF0Z_sg1wCB3OU-MYJBB-duK3" data-callback='submitMail'>@lang('index.contact-label-submit')</button>
                         </form>
                     </div>
                 </div>

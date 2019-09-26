@@ -63,5 +63,27 @@ function hideMenu() {
 }
 
 function submitMail(token){
-    document.getElementById("mail-form").submit();
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var subject = $("#subject").val();
+    var msg = $("#message").val();
+
+    var error = 0;
+    var nameError    = name     != "" ? false : true;
+    var emailError   = email    != "" ? false : true;
+    var subjectError = subject  != "" ? false : true;
+    var msgError     = msg      != "" ? false : true;
+
+    var emailFormatError = !validateEmail(email);
+
+    var numErrors = nameError + emailError + subjectError + msgError;
+
+    if(!nameError & !emailError & !subjectError & !msgError & !emailFormatError){
+        $("#mail-form").submit();
+    }
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
 }
