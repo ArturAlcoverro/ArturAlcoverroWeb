@@ -10,7 +10,7 @@
 }
 
 #about h1 {
-    font-size: 3.750em;
+    font-size: calc(4rem + 1vw);
     font-family: 'Gilroy', sans-serif;
     color: white;
     width: 100%;

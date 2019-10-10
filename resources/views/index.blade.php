@@ -114,15 +114,15 @@
                     <div class="col-12 col-md-6">
                         <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.jpg')}}" alt="profile-img">
                     </div>
-                    <div class="col-12 col-md-6">
-                        <p class="hide fade delay profile-text">
+                    <div class="col-12 col-md-6 hide fade delay">
+                        <p class="profile-text">
                             @lang('index.about-text-1')
                             <br>
                             <br>
                             @lang('index.about-text-2')
                         </p>
                         <br>
-                        <a class="button hide fade delay" href="{{url('/about')}}">@lang('index.about-button')</a>
+                        <a class="button" href="{{url('/about')}}">@lang('index.about-button')</a>
                     </div>
                 </div>
             </div>

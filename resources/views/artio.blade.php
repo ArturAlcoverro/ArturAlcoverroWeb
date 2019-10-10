@@ -60,7 +60,7 @@
         <div class="col-12">
             <video id="video-artio" controls>
                 <source src="{{asset('/assets/videos/demo.mp4')}}" type="video/mp4">
-                Your browser does not support HTML5 video.
+                Your browser does not support video.
               </video>
         </div>
         <div class="col-12 video-buttons">

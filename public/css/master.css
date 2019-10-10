@@ -22,6 +22,7 @@
     font-weight: bold;
 }
 
+
 button:focus{
     outline: none
 }
@@ -101,8 +102,8 @@ button:focus{
 }
 
 .acces-bg {
-    background-color: rgb(0, 0, 0) !important;
-}
+    background-color: rgba(0, 0, 0, 0.45) !important;
+    border-radius: 2px;}
 
 @media (max-width:850px) {
     #acces {

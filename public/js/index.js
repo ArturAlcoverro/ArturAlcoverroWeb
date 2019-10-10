@@ -1,6 +1,6 @@
 var menu = false;
 
-$(window).on('load',function () {
+$(window).on('load', function () {
     $("#main").removeClass("scale-30");
     setTimeout(function () {
         $("#main p:nth-child(1)").animate({
@@ -62,28 +62,49 @@ function hideMenu() {
     menu = false;
 }
 
-function submitMail(token){
+function validateMail(event) {
+    event.preventDefault();
     var name = $("#name").val();
     var email = $("#email").val();
     var subject = $("#subject").val();
     var msg = $("#message").val();
 
     var error = 0;
-    var nameError    = name     != "" ? false : true;
-    var emailError   = email    != "" ? false : true;
-    var subjectError = subject  != "" ? false : true;
-    var msgError     = msg      != "" ? false : true;
+    var nameError = name != "" ? false : true;
+    var emailError = email != "" ? false : true;
+    var subjectError = subject != "" ? false : true;
+    var msgError = msg != "" ? false : true;
 
     var emailFormatError = !validateEmail(email);
 
     var numErrors = nameError + emailError + subjectError + msgError;
 
-    if(!nameError & !emailError & !subjectError & !msgError & !emailFormatError){
-        $("#mail-form").submit();
+    if (!nameError & !emailError & !subjectError & !msgError & !emailFormatError) {
+        grecaptcha.execute();
+    }
+    else{
+
     }
 }
 
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
+}
+
+function onSubmit(token) {
+}
+
+function validate(event) {
+    event.preventDefault();
+    if (!document.getElementById('field').value) {
+        alert("You must add text to the required field");
+    } else {
+        grecaptcha.execute();
+    }
+}
+
+function onload() {
+    var element = document.getElementById('submit');
+    element.onclick = validate;
 }

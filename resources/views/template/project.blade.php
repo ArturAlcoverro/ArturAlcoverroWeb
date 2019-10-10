@@ -23,8 +23,13 @@
 </head>
 <body>
     <section id="main">
-        <button id='acces' class="acces-bg"></button>
-        <div class="container">
+        <button id='lang' class="acces-bg"></button>
+        <div id="lang-menu" class="lang-hide">
+            <ul>
+                <li><a id="en-btn" href="locale/en">@lang('index.en')</a></li>
+                <li><a id="es-btn" href="locale/es">@lang('index.es')</a></li>
+            </ul>
+        </div>        <div class="container">
             <div class="row main">
                 <div class="col-md-@yield('md-col') col-12">
                     <div class="logo hide fade-right delay">
