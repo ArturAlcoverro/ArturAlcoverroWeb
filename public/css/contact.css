@@ -34,6 +34,10 @@ label {
 
 }
 
+.form-group.web{
+    display: none !important;
+}
+
 .form-control:focus {
     color: white;
     background-color: transparent;

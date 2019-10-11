@@ -27,8 +27,6 @@
     <script src="{{asset('/js/project.js')}}"></script>
     <script src="{{asset('/js/hide.js')}}"></script>
     <script src="{{asset('/js/master.js')}}"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 
 </head>
 
@@ -499,22 +497,26 @@
                     <div class="col-12 col-lg-6 hide fade-top">
                         <form id="mail-form" action="{{asset('php/correo.php')}}" method="post">
                             <div class="form-group">
-                            <label for="name">@lang('index.contact-label-name')</label>
-                            <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
+                                <label for="name">@lang('index.contact-label-name')</label>
+                                <input required type="text" class="form-control" name="name" id="name" aria-describedby="name">
                             </div>
                             <div class="form-group">
-                            <label for="email">@lang('index.contact-label-email')</label>
+                                <label for="email">@lang('index.contact-label-email')</label>
                                 <input required type="email" class="form-control" name="email" id="email" aria-describedby="email">
                             </div>
+                            <div class="form-group web">
+                                <label for="web">@lang('index.contact-label-web')</label>
+                                <input type="text" class="form-control" name="web" id="web" aria-describedby="web">
+                            </div>
                             <div class="form-group">
-                            <label for="subject">@lang('index.contact-label-subject')</label>
+                                <label for="subject">@lang('index.contact-label-subject')</label>
                                 <input required type="text" class="form-control" name="subject" id="subject" aria-describedby="subject">
                             </div>
                             <div class="form-group">
-                            <label for="message">@lang('index.contact-label-message')</label>
-                            <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
+                                <label for="message">@lang('index.contact-label-message')</label>
+                                <textarea required class="form-control" name="message" id="message" rows="4"></textarea>
                             </div>
-                            <button class="send-btn g-recaptcha" data-sitekey="6Ld8W7oUAAAAABKxF0Z_sg1wCB3OU-MYJBB-duK3" data-callback='submitMail'>@lang('index.contact-label-submit')</button>
+                            <button class="send-btn" type="submit">@lang('index.contact-label-submit')</button>
                         </form>
                     </div>
                 </div>

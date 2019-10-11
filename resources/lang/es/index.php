@@ -15,6 +15,7 @@ return [
     "contact-title"         => "Contacto",
     "contact-label-name"    => "Nombre",
     "contact-label-email"   => "Correo",
+    "contact-label-web"     => "Web",
     "contact-label-subject" => "Asunto",
     "contact-label-message" => "Mensaje",
     "contact-label-submit"  => "Enviar",

@@ -6,10 +6,17 @@
 
     $nombre = $_POST["name"];
     $de = $_POST["email"];
+    $web = $_POST["web"];
     $mensaje = $_POST["message"];
     $subject = $_POST["subject"];
 
-    enviaCorreo($nombre, $de, $mensaje, $subject);
+
+    if ($web == ""){
+        enviaCorreo($nombre, $de, $mensaje, $subject);
+    }else{
+        echo 'spam';
+    }
+
 
     function enviaCorreo($nombre, $de, $mensaje, $subject){
 
@@ -33,7 +40,6 @@
 
         try {
             $mail->Send();
-
             header("Location: ../../");
         } catch(Exception $e){
             echo $mail->ErrorInfo;
