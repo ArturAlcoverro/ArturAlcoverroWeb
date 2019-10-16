@@ -14,7 +14,7 @@
     if ($web == ""){
         enviaCorreo($nombre, $de, $mensaje, $subject);
     }else{
-        echo 'spam';
+        header("Location: ../../");
     }
 
 
