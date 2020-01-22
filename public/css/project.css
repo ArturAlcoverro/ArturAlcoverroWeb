@@ -1,7 +1,8 @@
 html,
 body {
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
 }
 
 section {
@@ -28,7 +29,7 @@ section {
 }
 
 .eslogan {
-    font-size: 1.625em;
+    font-size: 1.6em;
     color: white;
 
 }
@@ -36,7 +37,7 @@ section {
 .subtitle {
     font-size: 1.250em;
     color: white;
-    font-weight: lighter
+    font-weight: 400
 }
 
 .logo {

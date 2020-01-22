@@ -74,12 +74,12 @@ textarea {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.4;
+    opacity: 0.2;
     transition: opacity 0.2s;
 }
 
 .rrss .rs:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 

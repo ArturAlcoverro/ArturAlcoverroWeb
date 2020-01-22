@@ -47,9 +47,9 @@
             <br>
         @lang('artio.about-text2')
     </p>
-    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">@lang('artio.about-tip1')</a>
-    <a class="hide fade-left delay2" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/login">@lang('artio.about-tip2')</a>
-    <p class="hide fade-left delay2 tip">@lang('artio.about-tip3')</p>
+    <a class="hide fade-left delay" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/">@lang('artio.about-tip1')</a>
+    <a class="hide fade-left delay" target="_blank" href="http://www.abp-politecnics.com/2019/daw/projecte02/dw01/public/login">@lang('artio.about-tip2')</a>
+    <p class="hide fade-left delay tip">@lang('artio.about-tip3')</p>
 
 @endsection
 
@@ -69,7 +69,7 @@
             <button data-time="177" data-end="236">@lang('artio.video-button3')</button>
             <button data-time="236" data-end="307">@lang('artio.video-button4')</button>
             <button data-time="307" data-end="433">@lang('artio.video-button5')</button>
-            <p class="mt-3"><b>@lang('artio.video-tip')</b></p>
+            <p class="mt-3 font-weight-bold">@lang('artio.video-tip')</p>
         </div>
     </div>
 </div>
