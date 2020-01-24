@@ -35,8 +35,8 @@
 @endsection
 
 @section('about-img')
-    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/2.png')}}" alt="screenshot riddle">
-    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/3.png')}}" alt="screenshot riddle">
+    <img class="about-img mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/2.png')}}" alt="screenshot-riddle-1">
+    <img class="about-img my-4 mx-auto hide fade-top" src="{{asset('/assets/imgs/Artio/3.png')}}" alt="screenshot-riddle-2">
 
 @endsection
 
