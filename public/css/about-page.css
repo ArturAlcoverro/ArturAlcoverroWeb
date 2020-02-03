@@ -79,3 +79,9 @@ ul li::before {
         font-size: 15vw;
     }
 }
+
+@media (max-width: 576px){
+    h1{
+        margin-left: 15px;
+    }
+}
