@@ -110,7 +110,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.jpg')}}" alt="profile-img">
+                        <img class="hide fade-top profile-img" src="{{asset('assets/imgs/profile.JPG')}}" alt="profile-img">
                     </div>
                     <div class="col-12 col-md-6 hide fade delay">
                         <p class="profile-text">

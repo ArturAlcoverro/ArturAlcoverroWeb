@@ -1,4 +1,58 @@
 @font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Thin-BETA.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-ExtraLight-BETA.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Light-BETA.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-SemiBold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-ExtraBold.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter/Inter-Black.otf");
+    font-weight: 900;
+}
+
+@font-face {
     font-family: 'Gilroy';
     src: url("../assets/fonts/Gilroy/Gilroy-Thin.otf");
     font-weight: 100;
@@ -58,8 +112,11 @@
     font-weight: bold;
 }
 
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
 
-button:focus{
+button:focus {
     outline: none
 }
 
@@ -102,15 +159,16 @@ button:focus{
     color: white;
     max-height: 300px;
     max-width: 300px;
-    transition: all 0.4s;;
+    transition: all 0.4s;
+    ;
 }
 
-#lang-menu ul{
+#lang-menu ul {
     padding: 10px 20px;
     margin: 0;
 }
 
-#lang-menu li{
+#lang-menu li {
     list-style-type: none;
     font-family: 'Mont';
     font-size: 1.1rem;
@@ -118,28 +176,29 @@ button:focus{
     text-transform: uppercase;
 }
 
-#lang-menu li a.active{
-    color:white;
+#lang-menu li a.active {
+    color: white;
 }
 
-#lang-menu li a{
-    color:rgba(255, 255, 255, 0.63);
+#lang-menu li a {
+    color: rgba(255, 255, 255, 0.63);
 }
 
-#lang-menu li a:hover{
-    color:white;
+#lang-menu li a:hover {
+    color: white;
     text-decoration: none;
 }
 
 
-.lang-hide{
+.lang-hide {
     transition: none !important;
     max-width: 0 !important;
 }
 
 .acces-bg {
     background-color: rgba(0, 0, 0, 0.45) !important;
-    border-radius: 2px;}
+    border-radius: 2px;
+}
 
 @media (max-width:850px) {
     #acces {

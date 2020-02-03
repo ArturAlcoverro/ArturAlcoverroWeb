@@ -1,6 +1,12 @@
 var menu = false;
 
 $(window).on('load', function () {
+    if (!browser.isEdge && !browser.isIE && !browser.isSafari && browser.isAny) {
+        console.log("smooth");
+        document.getElementsByTagName("body")[0].classList.add("scroll-smooth");
+        document.getElementsByTagName("html")[0].classList.add("scroll-smooth");
+    }
+
     $("#main").removeClass("scale-30");
     setTimeout(function () {
         $("#main p:nth-child(1)").animate({

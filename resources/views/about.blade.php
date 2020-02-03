@@ -24,7 +24,7 @@
         <div class="row" data-aos="fade">
             <h1>PERSONAL DATA</h1>
             <div class="col-12 col-md-3 mb-3">
-                    <img class="profile" src="{{asset('/assets/imgs/profile.jpg')}}" alt="profile-img">
+                    <img class="profile" src="{{asset('/assets/imgs/profile.JPG')}}" alt="profile-img">
                 </div>
             <div class="col-12 col-lg-6">
                 <p>Artur Alcoverro Pastó</p>

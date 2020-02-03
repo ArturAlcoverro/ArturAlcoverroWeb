@@ -1,5 +1,8 @@
+var browser;
+
 $(document).ready(function () {
     var lang = false;
+    browser = whatBrowser();
 
     $('#lang').click(function () {
         if (lang) {
@@ -17,11 +20,11 @@ $(document).ready(function () {
             e.preventDefault();
         });
 
-    $('body').click(function(e){
+    $('body').click(function (e) {
         var target = e.target.id;
-        if(lang & target != 'lang' & target != 'es-btn' & target != 'en-btn'){
+        if (lang & target != 'lang' & target != 'es-btn' & target != 'en-btn') {
             lang = false;
-            langMenu(false)
+            langMenu(false);
         }
     });
 
@@ -68,9 +71,33 @@ function contrast(cookie) {
 }
 
 function langMenu(active) {
-    if (active){
+    if (active) {
         $("#lang-menu").removeClass('lang-hide');
-    }else{
+    } else {
         $("#lang-menu").addClass('lang-hide');
     }
+}
+
+function whatBrowser() {
+    var Opera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+    var Firefox = typeof InstallTrigger !== 'undefined';
+    var Safari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+    var IE = /*@cc_on!@*/false || !!document.documentMode;
+    var Edge = !IE && !!window.StyleMedia;
+    var Chrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+    var EdgeChromium = Chrome && (navigator.userAgent.indexOf("Edg") != -1);
+    var Blink = (Chrome || Opera) && !!window.CSS;
+
+    return {
+        isOpera: Opera,
+        isFirefox: Firefox,
+        isSafari: Safari,
+        isIE: IE,
+        isEdge: Edge,
+        isChrome:Chrome,
+        isEdgeChromium: EdgeChromium,
+        isBlink:Blink,
+        isAny: Opera || Firefox || Safari || IE || Edge || Chrome || EdgeChromium || Blink
+    }
+
 }

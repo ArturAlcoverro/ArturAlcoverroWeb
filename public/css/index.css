@@ -1,5 +1,5 @@
 *{
-    font-family: 'Gilroy';
+    font-family: 'Inter';
 }
 
 :root {
@@ -7,13 +7,11 @@
 }
 
 html {
-    scroll-behavior: smooth;
     overflow-x: hidden
 }
 
 body {
     position: relative;
-    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
@@ -37,7 +35,7 @@ section:nth-child(even) {
 }
 
 #navbar {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     font-weight: 800;
     width: 100%;
@@ -234,7 +232,7 @@ button:hover,
 }
 
 #main p:nth-child(1) {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     font-size: calc(4rem + 2.5vw);
@@ -244,7 +242,7 @@ button:hover,
 }
 
 #main p:nth-child(2) {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 2rem;
     opacity: 0;

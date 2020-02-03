@@ -11,7 +11,7 @@ section:nth-child(even) {
 }
 
 .title {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     color: white;
     font-size: 3rem;
