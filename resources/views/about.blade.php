@@ -22,7 +22,7 @@
 <body>
     <div class="container">
         <div class="row" data-aos="fade">
-            <h1>PERSONAL DATA</h1>
+            <h1>Personal data</h1>
             <div class="col-12 col-md-3 mb-3">
                     <img class="profile" src="{{asset('/assets/imgs/profile.JPG')}}" alt="profile-img">
                 </div>
@@ -36,7 +36,7 @@
 
         </div>
         <div class="row mt-5" data-aos="fade">
-            <h1>EDUCATION</h1>
+            <h1>Education</h1>
             <div class="col-12 ul">
                 <ul>
                     <li>
@@ -52,17 +52,17 @@
             </div>
         </div>
         <div class="row mt-5" data-aos="fade">
-                <h1>EXPERIENCE</h1>
+                <h1>Experience</h1>
                 <div class="col-12 ul">
                     <ul>
                         <li>
-                            <b>1 year junior developer:</b> Telematel (Currently working)
+                            <b>A year and a half as junior programmer:</b> Telematel (Currently working)
                         </li>
                     </ul>
                 </div>
         </div>
         <div class="row mt-5" data-aos="fade">
-                <h1>SKILLS</h1>
+                <h1>Skills</h1>
                 <div class="col-12 ul">
                     <div data-aos="fade">
                         <h2>Hard Skills</h2>
