@@ -99,7 +99,7 @@
             </ul>
         </div>
         <section id="main" class="scale-30">
-            <p class="no-contrast"><span class="name">Artur1</span><br><span class="surname">Alcoverro</span></p>
+            <p class="no-contrast"><span class="name">Artur12</span><br><span class="surname">Alcoverro</span></p>
             <p class="no-contrast">@lang('index.S&W-developer')</p>
             <a href="#about" class="arrow arrow-animation">
                 <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow" alt="scrollDown">
