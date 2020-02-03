@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Artur Alcoverro</title>
+    <title>Arturr Alcoverro</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/menu-animation.css')}}">
@@ -99,7 +99,7 @@
             </ul>
         </div>
         <section id="main" class="scale-30">
-            <p class="no-contrast"><span class="name">Arturr</span><br><span class="surname">Alcoverro</span></p>
+            <p class="no-contrast"><span class="name">Artur</span><br><span class="surname">Alcoverro</span></p>
             <p class="no-contrast">@lang('index.S&W-developer')</p>
             <a href="#about" class="arrow arrow-animation">
                 <img src="{{asset('assets/imgs/arrow.svg')}}" class="arrow-hide arrow" alt="scrollDown">
