@@ -1,5 +1,3 @@
-import master from "./master";
-
 var menu = false;
 
 $(window).on('load', function () {
