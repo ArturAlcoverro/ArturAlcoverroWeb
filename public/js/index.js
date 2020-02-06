@@ -2,7 +2,7 @@ var menu = false;
 
 $(window).on('load', function () {
 
-    const browser = whatBrowser();
+    var browser = whatBrowser();
 
     if (!browser.isEdge && !browser.isIE && !browser.isSafari && browser.isAny) {
         console.log("smooth");
