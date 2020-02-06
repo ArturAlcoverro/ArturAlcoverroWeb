@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/about-page.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/hide.min.css')}}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
