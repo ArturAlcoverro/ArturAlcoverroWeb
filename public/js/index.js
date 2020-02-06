@@ -1,11 +1,10 @@
 import master from "./master";
 
 var menu = false;
-const browser;
 
 $(window).on('load', function () {
 
-    browser = whatBrowser();
+    const browser = whatBrowser();
 
     if (!browser.isEdge && !browser.isIE && !browser.isSafari && browser.isAny) {
         console.log("smooth");
