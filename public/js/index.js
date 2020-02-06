@@ -123,6 +123,7 @@ function whatBrowser() {
     var Opera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
     var Firefox = typeof InstallTrigger !== 'undefined';
     var Safari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+    var IE = false;
     var Edge = !IE && !!window.StyleMedia;
     var Chrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
     var EdgeChromium = Chrome && (navigator.userAgent.indexOf("Edg") != -1);
@@ -132,7 +133,7 @@ function whatBrowser() {
         isOpera: Opera,
         isFirefox: Firefox,
         isSafari: Safari,
-        isIE: false,
+        isIE: IE,
         isEdge: Edge,
         isChrome: Chrome,
         isEdgeChromium: EdgeChromium,
