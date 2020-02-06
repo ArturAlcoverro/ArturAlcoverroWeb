@@ -5,7 +5,7 @@
 @endsection
 
 @section('head')
-    <link rel="stylesheet" href="{{asset('/css/cleanotes.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/cleanotes.min.css')}}">
 @endsection
 
 @section('md-col')6

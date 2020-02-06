@@ -7,13 +7,13 @@
     <title>About me</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/master.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/about-page.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/hide.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/master.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/about-page.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/hide.min.css')}}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
-    <script src="{{asset('/js/index.js')}}"></script>
+    <script src="{{asset('/js/index.min.js')}}"></script>
     <script src="{{asset('/js/libraries/popper.min.js')}}"></script>
     <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

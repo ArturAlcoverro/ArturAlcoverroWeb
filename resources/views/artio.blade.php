@@ -5,8 +5,8 @@
 @endsection
 
 @section('head')
-    <link rel="stylesheet" href="{{asset('/css/artio.css')}}">
-    <script src="{{asset('/js/video.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('/css/artio.min.css')}}">
+    <script src="{{asset('/js/video.min.js')}}"></script>
 @endsection
 
 @section('md-col')5

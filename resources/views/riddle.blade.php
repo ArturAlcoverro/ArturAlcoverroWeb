@@ -5,7 +5,7 @@
 @endsection
 
 @section('head')
-    <link rel="stylesheet" href="{{asset('/css/riddle.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/riddle.min.css')}}">
 @endsection
 
 @section('md-col')5

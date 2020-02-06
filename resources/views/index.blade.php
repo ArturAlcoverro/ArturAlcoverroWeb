@@ -8,25 +8,25 @@
     <title>Artur Alcoverro</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/menu-animation.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/master.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/index.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/projects.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/project-animations.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/svg-project-animations.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/about.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/contact.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/hide.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/menu-animation.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/master.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/index.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/projects.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/project-animations.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/svg-project-animations.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/about.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/contact.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/hide.min.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:700|Major+Mono+Display|Bree+Serif|Roboto"
         rel="stylesheet">
     <script src="{{asset('/js/libraries/jquery-3.3.1.min.js')}}"></script>
-    <script src="{{asset('/js/index.js')}}"></script>
+    <script src="{{asset('/js/index.min.js')}}"></script>
     <script src="{{asset('/js/libraries/popper.min.js')}}"></script>
     <script src="{{asset('/js/libraries/bootstrap.min.js')}}"></script>
-    <script src="{{asset('/js/scroll.js')}}"></script>
-    <script src="{{asset('/js/project.js')}}"></script>
-    <script src="{{asset('/js/hide.js')}}"></script>
-    <script src="{{asset('/js/master.js')}}"></script>
+    <script src="{{asset('/js/scroll.min.js')}}"></script>
+    <script src="{{asset('/js/project.min.js')}}"></script>
+    <script src="{{asset('/js/hide.min.js')}}"></script>
+    <script src="{{asset('/js/master.min.js')}}"></script>
 
 </head>
 

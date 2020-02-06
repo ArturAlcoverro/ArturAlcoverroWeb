@@ -5,7 +5,7 @@
 @endsection
 
 @section('head')
-    <link rel="stylesheet" href="{{asset('/css/barenys.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/barenys.min.css')}}">
 @endsection
 
 @section('md-col')5
