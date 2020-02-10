@@ -91,7 +91,7 @@
                 </a>
             </li>
         </ul>
-        <button id='lang'></button>
+        <button id='lang' aria-label='Change language'></button>
         <div id="lang-menu" class="lang-hide">
             <ul>
                 <li><a id="en-btn" href="locale/en">@lang('index.en')</a></li>
