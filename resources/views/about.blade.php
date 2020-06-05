@@ -29,7 +29,6 @@
                 <p>Artur Alcoverro Pastó</p>
                 <p>From December 21, 1998</p>
                 <p>Barcelona</p>
-                <p>606684412</p>
                 <p>artur.bcn1998@gmail.com</p>
             </div>
 
