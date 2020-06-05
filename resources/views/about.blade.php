@@ -47,6 +47,9 @@
                     <li>
                         <b>Higher degree of web development:</b> Centre d'Estudis Politècnics
                     </li>
+                    <li>
+                        <b>Higher degree of web development:</b> La Salle Ramon Llull University (Currently studying)
+                    </li>
                 </ul>
             </div>
         </div>
@@ -55,7 +58,7 @@
                 <div class="col-12 ul">
                     <ul>
                         <li>
-                            <b>A year and a half as junior programmer:</b> Telematel (Currently working)
+                            <b>2 years as junior developer:</b> Telematel
                         </li>
                     </ul>
                 </div>

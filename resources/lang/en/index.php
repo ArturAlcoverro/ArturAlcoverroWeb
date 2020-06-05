@@ -9,7 +9,7 @@ return [
     "S&W-developer"         => "Software & Web developer",
     "about-title"           => "About me",
     "about-text-1"          => "Hi! I'm Artur Alcoverro, a software developer from Barcelona graduated in Centre d'estudis Politècnics.",
-    "about-text-2"          => "I am a passionate about technology, videogames and fantastic literature and I'm currently working in Telematel as a junior programmer.",
+    "about-text-2"          => "I am a passionate about technology, videogames and fantastic literature and I'm currently studying a degree in Software application tecniques at La Salle URL.",
     "about-button"          => "More about me",
     "work-title"            => "My work",
     "contact-title"         => "Contact",
