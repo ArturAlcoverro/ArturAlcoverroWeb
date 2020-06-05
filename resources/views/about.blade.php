@@ -48,7 +48,7 @@
                         <b>Higher degree of web development:</b> Centre d'Estudis Politècnics
                     </li>
                     <li>
-                        <b>Higher degree of web development:</b> La Salle Ramon Llull University (Currently studying)
+                        <b>Degree in Software application tecniques</b> La Salle Ramon Llull University (Currently studying)
                     </li>
                 </ul>
             </div>
@@ -67,7 +67,6 @@
                 <h1>Skills</h1>
                 <div class="col-12 ul">
                     <div data-aos="fade">
-                        <h2>Hard Skills</h2>
                         <ul>
                             <li>
                                 <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL.
@@ -83,27 +82,6 @@
                             </li>
                             <li>
                                 <b>Markup Language:</b> JSON, XML, HTML, CSS, XSLT.
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div data-aos="fade">
-                        <h2>Soft Skills</h2>
-                        <ul>
-                            <li>
-                                <b>Teamwork.</b>
-                            </li>
-                            <li>
-                                <b>Flexibility.</b>
-                            </li>
-                            <li>
-                                <b>Responsibility.</b>
-                            </li>
-                            <li>
-                                <b>Leadership</b>
-                            </li>
-                            <li>
-                                <b>Hardworking</b>
                             </li>
                         </ul>
                     </div>
