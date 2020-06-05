@@ -78,10 +78,10 @@
                                 <b>Web libraries:</b> Bootstrap, Jquery, Datatables.
                             </li>
                             <li>
-                                <b>Databases:</b> SQL.
+                                <b>Databases:</b> SQL, MongoDB.
                             </li>
                             <li>
-                                <b>Markup Language:</b> JSON, XML, HTML, CSS, XSLT.
+                                <b>Markup Language:</b> JSON, XML, HTML, CSS, SASS, XSLT.
                             </li>
                         </ul>
                     </div>
