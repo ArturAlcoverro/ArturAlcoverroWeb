@@ -9,7 +9,7 @@ return [
     "S&W-developer"         => "Desarrollador de Software y Web",
     "about-title"           => "Sobre mi",
     "about-text-1"          => "¡Hola! Me llamo Artur Alcoverro y soy un programador de Barcelona graduado en el Centro d'estudios Politécnicos.",
-    "about-text-2"          => "Soy un apasionado de la tecnología, los videojuegos y la literatura fantástica y actualmente estoy estudiando el Grado en técnicas de aplicaciones de Software en la universidad La Salle URL.",
+    "about-text-2"          => "Soy un apasionado de la tecnología, los videojuegos y la literatura fantástica y actualmente estoy estudiando el Grado en técnicas de aplicaciones de Software en la universidad La Salle Ramon Llull.",
     "about-button"          => "Más sobre mí",
     "work-title"            => "Mis proyectos",
     "contact-title"         => "Contacto",
