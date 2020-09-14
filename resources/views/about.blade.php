@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About me</title>
+    <title>@lang('about.title')</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('/assets/imgs/favicon.png')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/master.min.css')}}">
@@ -21,66 +21,66 @@
 <body>
     <div class="container">
         <div class="row" data-aos="fade">
-            <h1>Personal data</h1>
+            <h1>@lang('about.personal-title')</h1>
             <div class="col-12 col-md-3 mb-3">
                     <img class="profile" src="{{asset('/assets/imgs/profile.JPG')}}" alt="profile-img">
                 </div>
             <div class="col-12 col-lg-6">
-                <p>Artur Alcoverro Pastó</p>
-                <p>From December 21, 1998</p>
-                <p>Barcelona</p>
-                <p>artur.bcn1998@gmail.com</p>
+                <p>@lang('about.full-name')</p>
+                <p>@lang('about.born-date')</p>
+                <p>@lang('about.city')</p>
+                <p>@lang('about.mail')</p>
             </div>
 
         </div>
         <div class="row mt-5" data-aos="fade">
-            <h1>Education</h1>
+            <h1>@lang('about.education-title')</h1>
             <div class="col-12 ul">
                 <ul>
                     <li>
-                        <b>Batxillerat tecnològic:</b> Col·legi Sta. Caterina de Siena - Dominiques d'Horta
+                        <b>@lang('about.education-1-1')</b>@lang('about.education-1-2')
                     </li>
                     <li>
-                        <b>Higher degree of multiplatform development:</b> Centre d'Estudis Politècnics
+                        <b>@lang('about.education-2-1')</b>@lang('about.education-2-2')
                     </li>
                     <li>
-                        <b>Higher degree of web development:</b> Centre d'Estudis Politècnics
+                        <b>@lang('about.education-3-1')</b>@lang('about.education-3-2')
                     </li>
                     <li>
-                        <b>Degree in Software application tecniques</b> La Salle Ramon Llull University (Currently studying)
+                        <b>@lang('about.education-4-1')</b>@lang('about.education-4-2')
                     </li>
                 </ul>
             </div>
         </div>
         <div class="row mt-5" data-aos="fade">
-                <h1>Experience</h1>
+                <h1>@lang('about.experience-title')</h1>
                 <div class="col-12 ul">
                     <ul>
                         <li>
-                            <b>2 years as junior developer:</b> Telematel
+                            <b>@lang('about.experience-1-1')</b> @lang('about.experience-1-2')
                         </li>
                     </ul>
                 </div>
         </div>
         <div class="row mt-5" data-aos="fade">
-                <h1>Skills</h1>
+                <h1>@lang('about.skills-title')</h1>
                 <div class="col-12 ul">
                     <div data-aos="fade">
                         <ul>
                             <li>
-                                <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL, C++ (Arduino).
+                                <b>@lang('about.skills-1-1')</b>@lang('about.skills-1-2')
                             </li>
                             <li>
-                                <b>Frameworks:</b> Laravel, Android Studio, Arduino.
+                                <b>@lang('about.skills-2-1')</b>@lang('about.skills-2-2')
                             </li>
                             <li>
-                                <b>Web libraries:</b> Bootstrap, Jquery, Datatables.
+                                <b>@lang('about.skills-3-1')</b>@lang('about.skills-3-2')
                             </li>
                             <li>
-                                <b>Databases:</b> SQL, MongoDB.
+                                <b>@lang('about.skills-4-1')</b>@lang('about.skills-4-2')
                             </li>
                             <li>
-                                <b>Other Languages:</b> JSON, XML, HTML, CSS, SASS, XSLT.
+                                <b>@lang('about.skills-5-1')</b>@lang('about.skills-5-2')
                             </li>
                         </ul>
                     </div>
