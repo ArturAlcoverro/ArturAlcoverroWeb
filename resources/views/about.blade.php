@@ -68,10 +68,10 @@
                     <div data-aos="fade">
                         <ul>
                             <li>
-                                <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL.
+                                <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL, C++ (Arduino).
                             </li>
                             <li>
-                                <b>Frameworks:</b> Laravel, Android Studio.
+                                <b>Frameworks:</b> Laravel, Android Studio, Arduino.
                             </li>
                             <li>
                                 <b>Web libraries:</b> Bootstrap, Jquery, Datatables.
@@ -80,7 +80,7 @@
                                 <b>Databases:</b> SQL, MongoDB.
                             </li>
                             <li>
-                                <b>Markup Language:</b> JSON, XML, HTML, CSS, SASS, XSLT.
+                                <b>Other Languages:</b> JSON, XML, HTML, CSS, SASS, XSLT.
                             </li>
                         </ul>
                     </div>
