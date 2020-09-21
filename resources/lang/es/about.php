@@ -2,21 +2,21 @@
 return [
     "title"       => "Sobre mi",
 
-    "personal-title"   => "Personal data",
+    "personal-title"   => "Datos personales",
     "full-name"   => "Artur Alcoverro Pastó",
-    "born-date"   => "From December 21, 1998",
+    "born-date"   => "21/12/1998",
     "city"    => "Barcelona",
     "mail"    => "artur.bcn1998@gmail.com",
 
-    "education-title"    => "Education",
+    "education-title"    => "Formación acadèmica",
     "education-1-1"   => "Batxillerat tecnològic:",
     "education-1-2"   => " Col·legi Sta. Caterina de Siena - Dominiques d'Horta",
-    "education-2-1"   => "Higher degree of multiplatform development:",
+    "education-2-1"   => "CFGS en Desenvolupament d’Aplicacions Multiplataforma:",
     "education-2-2"   => " Centre d'Estudis Politècnics",
-    "education-3-1"   => "Higher degree of web development:",
+    "education-3-1"   => "CFGS en Desenvolupament d’Aplicacions Web:",
     "education-3-2"   => " Centre d'Estudis Politècnics",
-    "education-4-1"   => "Degree in Software application tecniques",
-    "education-4-2"   => " La Salle Ramon Llull University (Currently studying)",
+    "education-4-1"   => "Grau en Tècniques d’Aplicacions de Software",
+    "education-4-2"   => " La Salle Universitat Ramon Llull (Actualment estudiant)",
 
     "experience-title" => "Experience",
     "experience-1-1" => "2 years as junior developer:",
