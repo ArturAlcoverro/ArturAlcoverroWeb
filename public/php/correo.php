@@ -11,7 +11,7 @@
     $subject = $_POST["subject"];
 
 
-    if ($web == ""){
+    if ($web == "" && !strpos($nombre, "Eric Jones")){
         enviaCorreo($nombre, $de, $mensaje, $subject);
     }else{
         header("Location: ../../");
