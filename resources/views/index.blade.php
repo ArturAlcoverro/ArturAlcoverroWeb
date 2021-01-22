@@ -491,7 +491,7 @@
                     <div class="col-12 col-lg-6 rrss hide fade-top">
                         <a href="https://www.instagram.com/artur_alcoverro/" target="_blank" class="rs instagram"></a>
                         <a href="https://twitter.com/ArturAlcoverro" target="_blank" class="rs twitter"></a>
-                        <a href="https://www.linkedin.com/in/artur-alcoverro-9b5823179/" target="_blank" class="rs linkedin"></a>
+                        <a href="https://www.linkedin.com/in/artur-alcoverro-pasto/" target="_blank" class="rs linkedin"></a>
                         <a href="mailto:artur.bcn1998@gmail.com" target="_blank" class="rs gmail"></a>
                     </div>
                     <div class="col-12 col-lg-6 hide fade-top">
